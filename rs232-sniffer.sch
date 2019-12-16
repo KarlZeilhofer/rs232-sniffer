@@ -20,7 +20,7 @@ U 1 1 5DE55B73
 P 2900 2450
 F 0 "J2" H 2818 3142 50  0000 C CNN
 F 1 "DB9_Female" H 2818 3051 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Female_EdgeMount_P2.77mm" H 2900 2450 50  0001 C CNN
+F 2 "rs232-sniffer:DSUB-9_Female_EdgeMount_P2.77mm" H 2900 2450 50  0001 C CNN
 F 3 " ~" H 2900 2450 50  0001 C CNN
 	1    2900 2450
 	-1   0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5DE56645
 P 9700 2450
 F 0 "J3" H 9618 1758 50  0000 C CNN
 F 1 "DB9_Male" H 9618 1849 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm" H 9700 2450 50  0001 C CNN
+F 2 "rs232-sniffer:DSUB-9_Male_EdgeMount_P2.77mm" H 9700 2450 50  0001 C CNN
 F 3 " ~" H 9700 2450 50  0001 C CNN
 	1    9700 2450
 	1    0    0    1   
@@ -57,7 +57,7 @@ Vom PC
 Text Notes 9950 2500 0    118  ~ 24
 Zum Gerät
 $Comp
-L zeilhofer:R_sig R3
+L rs232-sniffer-rescue:R_sig-zeilhofer R3
 U 1 1 5DE6718C
 P 3600 2450
 F 0 "R3" V 3600 2450 50  0000 C CNN
@@ -68,7 +68,7 @@ F 3 "~" H 3600 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zeilhofer:R_sig R7
+L rs232-sniffer-rescue:R_sig-zeilhofer R7
 U 1 1 5DE68A5A
 P 3600 2350
 F 0 "R7" V 3600 2350 50  0000 C CNN
@@ -79,7 +79,7 @@ F 3 "~" H 3600 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zeilhofer:R_sig R4
+L rs232-sniffer-rescue:R_sig-zeilhofer R4
 U 1 1 5DE68CBB
 P 3600 2650
 F 0 "R4" V 3600 2650 50  0000 C CNN
@@ -92,7 +92,7 @@ $EndComp
 Wire Wire Line
 	3750 2650 4950 2650
 $Comp
-L zeilhofer:R_sig R2
+L rs232-sniffer-rescue:R_sig-zeilhofer R2
 U 1 1 5DE68E79
 P 8850 2250
 F 0 "R2" V 8850 2250 50  0000 C CNN
@@ -107,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2350 4750 2350
 $Comp
-L zeilhofer:R_sig R8
+L rs232-sniffer-rescue:R_sig-zeilhofer R8
 U 1 1 5DE69E8D
 P 8850 2550
 F 0 "R8" V 8850 2550 50  0000 C CNN
@@ -120,7 +120,7 @@ $EndComp
 Wire Wire Line
 	9000 2550 9400 2550
 $Comp
-L zeilhofer:R_sig R6
+L rs232-sniffer-rescue:R_sig-zeilhofer R6
 U 1 1 5DE6A196
 P 8850 2150
 F 0 "R6" V 8850 2150 50  0000 C CNN
@@ -133,7 +133,7 @@ $EndComp
 Wire Wire Line
 	9000 2150 9400 2150
 $Comp
-L zeilhofer:R_sig R1
+L rs232-sniffer-rescue:R_sig-zeilhofer R1
 U 1 1 5DE6A435
 P 8850 2050
 F 0 "R1" V 8850 2050 50  0000 C CNN
@@ -146,7 +146,7 @@ $EndComp
 Wire Wire Line
 	9000 2050 9400 2050
 $Comp
-L zeilhofer:R_sig R9
+L rs232-sniffer-rescue:R_sig-zeilhofer R9
 U 1 1 5DE6A621
 P 8850 2750
 F 0 "R9" V 8850 2750 50  0000 C CNN
@@ -217,7 +217,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 6000 4500 6000
 $Comp
-L zeilhofer:R_sig R70
+L rs232-sniffer-rescue:R_sig-zeilhofer R70
 U 1 1 5DE6DF29
 P 4750 4650
 F 0 "R70" V 4750 4650 50  0000 C CNN
@@ -233,7 +233,7 @@ U 1 1 5DE6F777
 P 4200 5600
 F 0 "J4" H 4118 6292 50  0000 C CNN
 F 1 "DB9_Female" H 4118 6201 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles" H 4200 5600 50  0001 C CNN
+F 2 "rs232-sniffer:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles" H 4200 5600 50  0001 C CNN
 F 3 " ~" H 4200 5600 50  0001 C CNN
 	1    4200 5600
 	-1   0    0    -1  
@@ -244,7 +244,7 @@ U 1 1 5DE71894
 P 6500 5650
 F 0 "J5" H 6418 6342 50  0000 C CNN
 F 1 "DB9_Female" H 6418 6251 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles" H 6500 5650 50  0001 C CNN
+F 2 "rs232-sniffer:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles" H 6500 5650 50  0001 C CNN
 F 3 " ~" H 6500 5650 50  0001 C CNN
 	1    6500 5650
 	-1   0    0    -1  
@@ -278,7 +278,7 @@ Connection ~ 7050 2150
 Wire Wire Line
 	7050 2150 8700 2150
 $Comp
-L zeilhofer:R_sig R60
+L rs232-sniffer-rescue:R_sig-zeilhofer R60
 U 1 1 5DE86646
 P 7050 5000
 F 0 "R60" V 7050 5000 50  0000 C CNN
@@ -304,7 +304,7 @@ Connection ~ 7350 2750
 Wire Wire Line
 	7350 2750 8700 2750
 $Comp
-L zeilhofer:R_sig R20
+L rs232-sniffer-rescue:R_sig-zeilhofer R20
 U 1 1 5DE88D53
 P 7150 5000
 F 0 "R20" V 7150 5000 50  0000 C CNN
@@ -315,7 +315,7 @@ F 3 "~" H 7150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zeilhofer:R_sig R80
+L rs232-sniffer-rescue:R_sig-zeilhofer R80
 U 1 1 5DE8913B
 P 7250 5000
 F 0 "R80" V 7250 5000 50  0000 C CNN
@@ -326,7 +326,7 @@ F 3 "~" H 7250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zeilhofer:R_sig R90
+L rs232-sniffer-rescue:R_sig-zeilhofer R90
 U 1 1 5DE892AF
 P 7350 5000
 F 0 "R90" V 7350 5000 50  0000 C CNN
@@ -350,7 +350,7 @@ Connection ~ 4850 2450
 Wire Wire Line
 	4850 2450 5550 2450
 $Comp
-L zeilhofer:R_sig R30
+L rs232-sniffer-rescue:R_sig-zeilhofer R30
 U 1 1 5DE8CAD8
 P 4850 4650
 F 0 "R30" V 4850 4650 50  0000 C CNN
@@ -361,7 +361,7 @@ F 3 "~" H 4850 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zeilhofer:R_sig R40
+L rs232-sniffer-rescue:R_sig-zeilhofer R40
 U 1 1 5DE8CC3E
 P 4950 4650
 F 0 "R40" V 4950 4650 50  0000 C CNN
@@ -544,7 +544,7 @@ F 3 "~" H 3400 2850 50  0001 C CNN
 $EndComp
 Connection ~ 3400 2850
 $Comp
-L zeilhofer:R_sig R10
+L rs232-sniffer-rescue:R_sig-zeilhofer R10
 U 1 1 5DE86192
 P 6950 5000
 F 0 "R10" V 6950 5000 50  0000 C CNN
@@ -592,7 +592,7 @@ U 1 1 5DE6BFA9
 P 4350 4200
 F 0 "TP7" H 4306 4248 50  0000 R CNN
 F 1 "SMD Testpoint" H 4306 4203 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 4550 4200 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 4550 4200 50  0001 C CNN
 F 3 "~" H 4550 4200 50  0001 C CNN
 	1    4350 4200
 	-1   0    0    -1  
@@ -603,7 +603,7 @@ U 1 1 5DE6CB63
 P 4350 4300
 F 0 "TP3" H 4306 4348 50  0000 R CNN
 F 1 "SMD Testpoint" H 4306 4303 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 4550 4300 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 4550 4300 50  0001 C CNN
 F 3 "~" H 4550 4300 50  0001 C CNN
 	1    4350 4300
 	-1   0    0    -1  
@@ -614,7 +614,7 @@ U 1 1 5DE6CD1A
 P 4350 4400
 F 0 "TP4" H 4306 4448 50  0000 R CNN
 F 1 "SMD Testpoint" H 4306 4403 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 4550 4400 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 4550 4400 50  0001 C CNN
 F 3 "~" H 4550 4400 50  0001 C CNN
 	1    4350 4400
 	-1   0    0    -1  
@@ -640,7 +640,7 @@ U 1 1 5DE76C88
 P 4200 2950
 F 0 "TP5" H 4156 2998 50  0000 R CNN
 F 1 "SMD Testpoint" H 4156 2953 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 4400 2950 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 4400 2950 50  0001 C CNN
 F 3 "~" H 4400 2950 50  0001 C CNN
 	1    4200 2950
 	-1   0    0    -1  
@@ -662,7 +662,7 @@ U 1 1 5DE77691
 P 6600 3050
 F 0 "TP1" H 6556 3098 50  0000 R CNN
 F 1 "SMD Testpoint" H 6556 3053 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 6800 3050 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 6800 3050 50  0001 C CNN
 F 3 "~" H 6800 3050 50  0001 C CNN
 	1    6600 3050
 	-1   0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 5DE7B145
 P 6600 3500
 F 0 "TP6" H 6556 3548 50  0000 R CNN
 F 1 "SMD Testpoint" H 6556 3503 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 6800 3500 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 6800 3500 50  0001 C CNN
 F 3 "~" H 6800 3500 50  0001 C CNN
 	1    6600 3500
 	-1   0    0    -1  
@@ -686,7 +686,7 @@ U 1 1 5DE7DA5D
 P 6600 3950
 F 0 "TP2" H 6556 3998 50  0000 R CNN
 F 1 "SMD Testpoint" H 6556 3953 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 6800 3950 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 6800 3950 50  0001 C CNN
 F 3 "~" H 6800 3950 50  0001 C CNN
 	1    6600 3950
 	-1   0    0    -1  
@@ -697,7 +697,7 @@ U 1 1 5DE80397
 P 6600 4400
 F 0 "TP8" H 6556 4448 50  0000 R CNN
 F 1 "SMD Testpoint" H 6556 4403 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 6800 4400 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 6800 4400 50  0001 C CNN
 F 3 "~" H 6800 4400 50  0001 C CNN
 	1    6600 4400
 	-1   0    0    -1  
@@ -708,7 +708,7 @@ U 1 1 5DE82DA0
 P 6600 4800
 F 0 "TP9" H 6556 4848 50  0000 R CNN
 F 1 "SMD Testpoint" H 6556 4803 50  0001 R CNN
-F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm" H 6800 4800 50  0001 C CNN
+F 2 "rs232-sniffer:TestPoint_Pad_5.0x3.0mm_paste" H 6800 4800 50  0001 C CNN
 F 3 "~" H 6800 4800 50  0001 C CNN
 	1    6600 4800
 	-1   0    0    -1  

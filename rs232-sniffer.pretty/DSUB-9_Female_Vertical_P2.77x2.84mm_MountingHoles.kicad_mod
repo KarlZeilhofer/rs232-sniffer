@@ -1,7 +1,7 @@
-(module DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles (layer F.Cu) (tedit 59FEDEE2)
+(module DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles (layer F.Cu) (tedit 5DE7BAD8)
   (descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
   (tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-  (fp_text reference J5 (at -5.54 -5.89) (layer F.SilkS)
+  (fp_text reference J4 (at -5.54 -5.89) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value DB9_Female (at -5.54 8.73) (layer F.Fab)
@@ -60,9 +60,9 @@
   (pad 3 thru_hole circle (at -5.54 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.77 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles.wrl
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/3d/61800925123_Downloads_STP_61800925123_rev1.stp
+    (offset (xyz -5.5 -1.5 6.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 180))
   )
 )

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name rs232-sniffer-rescue)(type Legacy)(uri ${KIPRJMOD}/rs232-sniffer-rescue.lib)(options "")(descr ""))
+)
