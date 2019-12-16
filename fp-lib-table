@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rs232-sniffer)(type KiCad)(uri ${KIPRJMOD}/rs232-sniffer.pretty)(options "")(descr ""))
+)

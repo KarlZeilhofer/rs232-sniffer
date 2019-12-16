@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+LIBS:rs232-sniffer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5050 4050 0    59   Input ~ 0
+Signal
+$Comp
+L Device:LED D201
+U 1 1 5DEBE9B8
+P 5450 3650
+AR Path="/5DEBE61F/5DEBE9B8" Ref="D201"  Part="1" 
+AR Path="/5DEDE6C8/5DEBE9B8" Ref="D301"  Part="1" 
+AR Path="/5DEDFC78/5DEBE9B8" Ref="D901"  Part="1" 
+AR Path="/5DEE1220/5DEBE9B8" Ref="D401"  Part="1" 
+AR Path="/5DEE27DA/5DEBE9B8" Ref="D501"  Part="1" 
+AR Path="/5DEE3DCA/5DEBE9B8" Ref="D?"  Part="1" 
+AR Path="/5DEE5548/5DEBE9B8" Ref="D601"  Part="1" 
+AR Path="/5DEE6B0C/5DEBE9B8" Ref="D701"  Part="1" 
+AR Path="/5DEE80E0/5DEBE9B8" Ref="D801"  Part="1" 
+F 0 "D501" H 5443 3866 50  0000 C CNN
+F 1 "grün" H 5443 3775 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5450 3650 50  0001 C CNN
+F 3 "~" H 5450 3650 50  0001 C CNN
+	1    5450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 5DEC0329
+P 5850 3650
+AR Path="/5DEBE61F/5DEC0329" Ref="R201"  Part="1" 
+AR Path="/5DEDE6C8/5DEC0329" Ref="R301"  Part="1" 
+AR Path="/5DEDFC78/5DEC0329" Ref="R901"  Part="1" 
+AR Path="/5DEE1220/5DEC0329" Ref="R401"  Part="1" 
+AR Path="/5DEE27DA/5DEC0329" Ref="R501"  Part="1" 
+AR Path="/5DEE3DCA/5DEC0329" Ref="R?"  Part="1" 
+AR Path="/5DEE5548/5DEC0329" Ref="R601"  Part="1" 
+AR Path="/5DEE6B0C/5DEC0329" Ref="R701"  Part="1" 
+AR Path="/5DEE80E0/5DEC0329" Ref="R801"  Part="1" 
+F 0 "R501" V 5643 3650 50  0000 C CNN
+F 1 "4k7" V 5734 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 3650 50  0001 C CNN
+F 3 "~" H 5850 3650 50  0001 C CNN
+	1    5850 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D202
+U 1 1 5DEC071D
+P 6250 3650
+AR Path="/5DEBE61F/5DEC071D" Ref="D202"  Part="1" 
+AR Path="/5DEDE6C8/5DEC071D" Ref="D302"  Part="1" 
+AR Path="/5DEDFC78/5DEC071D" Ref="D902"  Part="1" 
+AR Path="/5DEE1220/5DEC071D" Ref="D402"  Part="1" 
+AR Path="/5DEE27DA/5DEC071D" Ref="D502"  Part="1" 
+AR Path="/5DEE3DCA/5DEC071D" Ref="D?"  Part="1" 
+AR Path="/5DEE5548/5DEC071D" Ref="D602"  Part="1" 
+AR Path="/5DEE6B0C/5DEC071D" Ref="D702"  Part="1" 
+AR Path="/5DEE80E0/5DEC071D" Ref="D802"  Part="1" 
+F 0 "D502" H 6250 3866 50  0000 C CNN
+F 1 "1N4148W" H 6250 3775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6250 3650 50  0001 C CNN
+F 3 "~" H 6250 3650 50  0001 C CNN
+	1    6250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D204
+U 1 1 5DEC44CA
+P 5450 4450
+AR Path="/5DEBE61F/5DEC44CA" Ref="D204"  Part="1" 
+AR Path="/5DEDE6C8/5DEC44CA" Ref="D304"  Part="1" 
+AR Path="/5DEDFC78/5DEC44CA" Ref="D904"  Part="1" 
+AR Path="/5DEE1220/5DEC44CA" Ref="D404"  Part="1" 
+AR Path="/5DEE27DA/5DEC44CA" Ref="D504"  Part="1" 
+AR Path="/5DEE3DCA/5DEC44CA" Ref="D?"  Part="1" 
+AR Path="/5DEE5548/5DEC44CA" Ref="D604"  Part="1" 
+AR Path="/5DEE6B0C/5DEC44CA" Ref="D704"  Part="1" 
+AR Path="/5DEE80E0/5DEC44CA" Ref="D804"  Part="1" 
+F 0 "D504" H 5443 4666 50  0000 C CNN
+F 1 "rot" H 5443 4575 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5450 4450 50  0001 C CNN
+F 3 "~" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 5DEC44D0
+P 5850 4450
+AR Path="/5DEBE61F/5DEC44D0" Ref="R202"  Part="1" 
+AR Path="/5DEDE6C8/5DEC44D0" Ref="R302"  Part="1" 
+AR Path="/5DEDFC78/5DEC44D0" Ref="R902"  Part="1" 
+AR Path="/5DEE1220/5DEC44D0" Ref="R402"  Part="1" 
+AR Path="/5DEE27DA/5DEC44D0" Ref="R502"  Part="1" 
+AR Path="/5DEE3DCA/5DEC44D0" Ref="R?"  Part="1" 
+AR Path="/5DEE5548/5DEC44D0" Ref="R602"  Part="1" 
+AR Path="/5DEE6B0C/5DEC44D0" Ref="R702"  Part="1" 
+AR Path="/5DEE80E0/5DEC44D0" Ref="R802"  Part="1" 
+F 0 "R502" V 5643 4450 50  0000 C CNN
+F 1 "4k7" V 5734 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 4450 50  0001 C CNN
+F 3 "~" H 5850 4450 50  0001 C CNN
+	1    5850 4450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D D203
+U 1 1 5DEC44D6
+P 6250 4450
+AR Path="/5DEBE61F/5DEC44D6" Ref="D203"  Part="1" 
+AR Path="/5DEDE6C8/5DEC44D6" Ref="D303"  Part="1" 
+AR Path="/5DEDFC78/5DEC44D6" Ref="D903"  Part="1" 
+AR Path="/5DEE1220/5DEC44D6" Ref="D403"  Part="1" 
+AR Path="/5DEE27DA/5DEC44D6" Ref="D503"  Part="1" 
+AR Path="/5DEE3DCA/5DEC44D6" Ref="D?"  Part="1" 
+AR Path="/5DEE5548/5DEC44D6" Ref="D603"  Part="1" 
+AR Path="/5DEE6B0C/5DEC44D6" Ref="D703"  Part="1" 
+AR Path="/5DEE80E0/5DEC44D6" Ref="D803"  Part="1" 
+F 0 "D503" H 6250 4666 50  0000 C CNN
+F 1 "1N4148W" H 6250 4575 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6250 4450 50  0001 C CNN
+F 3 "~" H 6250 4450 50  0001 C CNN
+	1    6250 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5DEC45FD
+P 6650 4050
+AR Path="/5DEBE61F/5DEC45FD" Ref="#PWR0201"  Part="1" 
+AR Path="/5DEDE6C8/5DEC45FD" Ref="#PWR0301"  Part="1" 
+AR Path="/5DEDFC78/5DEC45FD" Ref="#PWR0901"  Part="1" 
+AR Path="/5DEE1220/5DEC45FD" Ref="#PWR0401"  Part="1" 
+AR Path="/5DEE27DA/5DEC45FD" Ref="#PWR0501"  Part="1" 
+AR Path="/5DEE3DCA/5DEC45FD" Ref="#PWR?"  Part="1" 
+AR Path="/5DEE5548/5DEC45FD" Ref="#PWR0601"  Part="1" 
+AR Path="/5DEE6B0C/5DEC45FD" Ref="#PWR0701"  Part="1" 
+AR Path="/5DEE80E0/5DEC45FD" Ref="#PWR0801"  Part="1" 
+F 0 "#PWR0501" H 6650 3800 50  0001 C CNN
+F 1 "GND" V 6655 3922 50  0000 R CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 4050 6650 3650
+Wire Wire Line
+	6650 3650 6400 3650
+Wire Wire Line
+	6650 4050 6650 4450
+Wire Wire Line
+	6650 4450 6400 4450
+Connection ~ 6650 4050
+Wire Wire Line
+	5600 4450 5700 4450
+Wire Wire Line
+	6000 4450 6100 4450
+Wire Wire Line
+	5300 4450 5150 4450
+Wire Wire Line
+	5150 4450 5150 4050
+Wire Wire Line
+	5150 4050 5050 4050
+Wire Wire Line
+	5150 4050 5150 3650
+Wire Wire Line
+	5150 3650 5300 3650
+Connection ~ 5150 4050
+Text Notes 5450 3350 0    59   ~ 0
+High (-3...-15V)
+Text Notes 5500 4750 0    59   ~ 0
+Low (+3...+15V)
+Wire Wire Line
+	5600 3650 5700 3650
+Wire Wire Line
+	6000 3650 6100 3650
+$EndSCHEMATC
