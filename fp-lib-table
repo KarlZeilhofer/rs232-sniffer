@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name rs232-sniffer)(type KiCad)(uri ${KIPRJMOD}/rs232-sniffer.pretty)(options "")(descr ""))
+  (lib (name htl_modules)(type KiCad)(uri ${HOME}/kicad-htl-lib/footprints/htl_modules.pretty)(options "")(descr ""))
+  (lib (name htl_smd)(type KiCad)(uri ${HOME}/kicad-htl-lib/footprints/htl_smd.pretty)(options "")(descr ""))
+  (lib (name htl_connectors)(type KiCad)(uri ${HOME}/kicad-htl-lib/footprints/htl_connectors.pretty)(options "")(descr ""))
 )

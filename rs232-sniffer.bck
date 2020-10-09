@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH340C
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
+$CMP CH340C-demo
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
+#End Doc Library

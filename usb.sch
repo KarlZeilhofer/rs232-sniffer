@@ -1,0 +1,389 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 25 27
+Title "RS-232 Sniffer"
+Date "2020-10-07"
+Rev "v20.0.0-dev"
+Comp "HTL-Steyr"
+Comment1 "Karl Zeilhofer"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2250 3100 2250 3150
+Wire Wire Line
+	2250 3300 2250 3350
+Wire Wire Line
+	2250 3150 2500 3150
+Wire Wire Line
+	2500 3150 2650 3300
+Wire Wire Line
+	2650 3300 3400 3300
+Connection ~ 2250 3150
+Wire Wire Line
+	2250 3150 2250 3200
+Wire Wire Line
+	3400 3200 2650 3200
+Wire Wire Line
+	2650 3200 2500 3350
+Wire Wire Line
+	2500 3350 2250 3350
+Connection ~ 2250 3350
+Wire Wire Line
+	2250 3350 2250 3400
+NoConn ~ 2250 2900
+NoConn ~ 2250 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5F70A555
+P 1650 4200
+AR Path="/5F64F622/5F70A555" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F70A555" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F70A555" Ref="#PWR02102"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F70A555" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F70A555" Ref="#PWR02502"  Part="1" 
+F 0 "#PWR02502" H 1650 3950 50  0001 C CNN
+F 1 "GND" H 1655 4027 50  0000 C CNN
+F 2 "" H 1650 4200 50  0001 C CNN
+F 3 "" H 1650 4200 50  0001 C CNN
+	1    1650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4200 1650 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F711352
+P 3800 4150
+AR Path="/5F64F622/5F711352" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F711352" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F711352" Ref="#PWR02106"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F711352" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F711352" Ref="#PWR02506"  Part="1" 
+F 0 "#PWR02506" H 3800 3900 50  0001 C CNN
+F 1 "GND" H 3805 3977 50  0000 C CNN
+F 2 "" H 3800 4150 50  0001 C CNN
+F 3 "" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4150 3800 3900
+$Comp
+L Device:C C?
+U 1 1 5F711A46
+P 4100 2400
+AR Path="/5F64F622/5F711A46" Ref="C?"  Part="1" 
+AR Path="/5F78AFC8/5F711A46" Ref="C?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F711A46" Ref="C2103"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F711A46" Ref="C?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F711A46" Ref="C2503"  Part="1" 
+F 0 "C2503" V 3848 2400 50  0000 C CNN
+F 1 "100n" V 3939 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf" H 4100 2400 50  0001 C CNN
+F 4 "LCSC" H 4100 2400 50  0001 C CNN "Distributor"
+F 5 "Walsin Tech Corp" H 4100 2400 50  0001 C CNN "Manufacturer"
+F 6 "100nF ±10% 16V X7R" H 4100 2400 50  0001 C CNN "Notes"
+F 7 "" H 4100 2400 50  0001 C CNN "OrderNr"
+F 8 "" H 4100 2400 50  0001 C CNN "PartNr"
+F 9 "0.002141" H 4100 2400 50  0001 C CNN "PriceEUR"
+F 10 "500" H 4100 2400 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 4100 2400 50  0001 C CNN "Weblink"
+F 12 "C80516" H 4100 2400 50  0001 C CNN "DistOrderNr"
+F 13 "0603B104K160CT" H 4100 2400 50  0001 C CNN "ManPartNr"
+	1    4100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7120DC
+P 4350 2400
+AR Path="/5F64F622/5F7120DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F7120DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F7120DC" Ref="#PWR02107"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F7120DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F7120DC" Ref="#PWR02507"  Part="1" 
+F 0 "#PWR02507" H 4350 2150 50  0001 C CNN
+F 1 "GND" V 4355 2272 50  0000 R CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 2400 4250 2400
+Wire Wire Line
+	3950 2400 3800 2400
+Connection ~ 3800 2400
+Wire Wire Line
+	3800 2400 3800 2700
+$Comp
+L htl_ics:CH340C U?
+U 1 1 5F715116
+P 3800 3300
+AR Path="/5F64F622/5F715116" Ref="U?"  Part="1" 
+AR Path="/5F78AFC8/5F715116" Ref="U?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F715116" Ref="U2101"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F715116" Ref="U?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F715116" Ref="U2501"  Part="1" 
+F 0 "U2501" H 3400 3900 50  0000 C CNN
+F 1 "CH340C" H 4000 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3850 2750 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 3450 4100 50  0001 C CNN
+F 4 "WCH(Jiangsu Qin Heng)" H 3800 3300 50  0001 C CNN "Manufacturer"
+F 5 "LCSC" H 3800 3300 50  0001 C CNN "Distributor"
+F 6 "C84681" H 3800 3300 50  0001 C CNN "DistOrderNr"
+F 7 "0.239" H 3800 3300 50  0001 C CNN "PriceEUR"
+F 8 "100" H 3800 3300 50  0001 C CNN "PriceForQty"
+F 9 "https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html" H 3800 3300 50  0001 C CNN "Weblink"
+F 10 "CH340C" H 3800 3300 50  0001 C CNN "ManPartNr"
+F 11 "USB-UART with internal clock" H 3800 3300 50  0001 C CNN "Notes"
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 3700
+$Comp
+L Device:R R?
+U 1 1 5F764796
+P 3200 3000
+AR Path="/5F64F622/5F764796" Ref="R?"  Part="1" 
+AR Path="/5F78AFC8/5F764796" Ref="R?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F764796" Ref="R2101"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F764796" Ref="R?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F764796" Ref="R2501"  Part="1" 
+F 0 "R2501" V 2993 3000 50  0000 C CNN
+F 1 "100R" V 3084 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 3000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3200 3000 50  0001 C CNN
+F 4 "C25201" H 3200 3000 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3200 3000 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3200 3000 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3200 3000 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3200 3000 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3200 3000 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3200 3000 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3200 3000 50  0001 C CNN "Weblink"
+	1    3200 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3000 3400 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5F764C96
+P 2900 3000
+AR Path="/5F64F622/5F764C96" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F764C96" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F764C96" Ref="#PWR02103"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F764C96" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F764C96" Ref="#PWR02503"  Part="1" 
+F 0 "#PWR02503" H 2900 2750 50  0001 C CNN
+F 1 "GND" H 2905 2827 50  0000 C CNN
+F 2 "" H 2900 3000 50  0001 C CNN
+F 3 "" H 2900 3000 50  0001 C CNN
+	1    2900 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3000 3050 3000
+Text HLabel 4500 2900 2    50   Output ~ 0
+TxD
+Text HLabel 4500 3600 2    50   Output ~ 0
+~DTR
+Text HLabel 4500 3700 2    50   Output ~ 0
+~RTR
+Text HLabel 4500 3000 2    50   Input ~ 0
+RxD
+Text HLabel 4500 3200 2    50   Input ~ 0
+~CTS
+Text HLabel 4500 3300 2    50   Input ~ 0
+~DSR
+Text HLabel 4500 3400 2    50   Input ~ 0
+~RI
+Text HLabel 4500 3500 2    50   Input ~ 0
+~DCD
+Wire Wire Line
+	4200 2900 4500 2900
+Wire Wire Line
+	4200 3000 4500 3000
+Wire Wire Line
+	4200 3200 4500 3200
+Wire Wire Line
+	4200 3300 4500 3300
+Wire Wire Line
+	4200 3400 4500 3400
+Wire Wire Line
+	4200 3500 4500 3500
+Wire Wire Line
+	4200 3600 4500 3600
+Wire Wire Line
+	4200 3700 4500 3700
+$Comp
+L Device:C C?
+U 1 1 5F7675CD
+P 3400 2400
+AR Path="/5F64F622/5F7675CD" Ref="C?"  Part="1" 
+AR Path="/5F78AFC8/5F7675CD" Ref="C?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F7675CD" Ref="C2102"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F7675CD" Ref="C?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F7675CD" Ref="C2502"  Part="1" 
+F 0 "C2502" V 3148 2400 50  0000 C CNN
+F 1 "100n" V 3239 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf" H 3400 2400 50  0001 C CNN
+F 4 "LCSC" H 3400 2400 50  0001 C CNN "Distributor"
+F 5 "Walsin Tech Corp" H 3400 2400 50  0001 C CNN "Manufacturer"
+F 6 "100nF ±10% 16V X7R" H 3400 2400 50  0001 C CNN "Notes"
+F 7 "" H 3400 2400 50  0001 C CNN "OrderNr"
+F 8 "" H 3400 2400 50  0001 C CNN "PartNr"
+F 9 "0.002141" H 3400 2400 50  0001 C CNN "PriceEUR"
+F 10 "500" H 3400 2400 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 3400 2400 50  0001 C CNN "Weblink"
+F 12 "C80516" H 3400 2400 50  0001 C CNN "DistOrderNr"
+F 13 "0603B104K160CT" H 3400 2400 50  0001 C CNN "ManPartNr"
+	1    3400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F767C48
+P 3150 2400
+AR Path="/5F64F622/5F767C48" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F767C48" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F767C48" Ref="#PWR02104"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F767C48" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F767C48" Ref="#PWR02504"  Part="1" 
+F 0 "#PWR02504" H 3150 2150 50  0001 C CNN
+F 1 "GND" V 3155 2272 50  0000 R CNN
+F 2 "" H 3150 2400 50  0001 C CNN
+F 3 "" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 2400 3250 2400
+Wire Wire Line
+	3550 2400 3700 2400
+Wire Wire Line
+	3700 2400 3700 2700
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5F6E6B4D
+P 1650 3200
+AR Path="/5F64F622/5F6E6B4D" Ref="J?"  Part="1" 
+AR Path="/5F78AFC8/5F6E6B4D" Ref="J?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F6E6B4D" Ref="J2101"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F6E6B4D" Ref="J?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F6E6B4D" Ref="J2501"  Part="1" 
+F 0 "J2501" H 1757 4067 50  0000 C CNN
+F 1 "USB-C/16p" H 1757 3976 50  0000 C CNN
+F 2 "rs232-sniffer:USB_C_Receptacle_LCSC_C167321" H 1800 3200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1800 3200 50  0001 C CNN
+F 4 "Jing Extension" H 1650 3200 50  0001 C CNN "Manufacturer"
+F 5 "" H 1650 3200 50  0001 C CNN "PartNr"
+F 6 "LCSC" H 1650 3200 50  0001 C CNN "Distributor"
+F 7 "" H 1650 3200 50  0001 C CNN "OrderNr"
+F 8 "0.155" H 1650 3200 50  0001 C CNN "PriceEUR"
+F 9 "100" H 1650 3200 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-C167321_C167321.html" H 1650 3200 50  0001 C CNN "Weblink"
+F 11 "USB-C, 16-polig" H 1650 3200 50  0001 C CNN "Notes"
+F 12 "C167321" H 1650 3200 50  0001 C CNN "DistOrderNr"
+F 13 "C167321" H 1650 3200 50  0001 C CNN "ManPartNr"
+	1    1650 3200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 3700
+NoConn ~ 2250 3800
+Text Notes 4000 4350 0    50   ~ 0
+Bemerkung 1:\nPin 15, RS232:\nWenn high, wird RxD invertiert, \num direkt die RS232-Leitungen zu kontaktieren. 
+Text Notes 2850 3150 0    50   ~ 0
+siehe Bem.1
+Wire Wire Line
+	3800 1700 3800 2400
+$Comp
+L power:+3V3 #PWR02105
+U 1 1 5F96D29B
+P 3800 1700
+AR Path="/5F7F8851/5F7FB5B8/5F96D29B" Ref="#PWR02105"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F96D29B" Ref="#PWR02505"  Part="1" 
+F 0 "#PWR02505" H 3800 1550 50  0001 C CNN
+F 1 "+3V3" H 3815 1873 50  0000 C CNN
+F 2 "" H 3800 1700 50  0001 C CNN
+F 3 "" H 3800 1700 50  0001 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 2350 2000 2    50   Output ~ 0
+USB-Power
+Wire Wire Line
+	2350 2000 2250 2000
+Wire Wire Line
+	2250 2000 2250 2300
+$Comp
+L power:PWR_FLAG #FLG02101
+U 1 1 5F81810D
+P 2250 2300
+AR Path="/5F7F8851/5F7FB5B8/5F81810D" Ref="#FLG02101"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F81810D" Ref="#FLG02501"  Part="1" 
+F 0 "#FLG02501" H 2250 2375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2250 2428 50  0000 L CNN
+F 2 "" H 2250 2300 50  0001 C CNN
+F 3 "~" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	0    1    1    0   
+$EndComp
+Connection ~ 2250 2300
+Wire Wire Line
+	2250 2300 2250 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5F818ECB
+P 1350 4600
+AR Path="/5F64F622/5F818ECB" Ref="#PWR?"  Part="1" 
+AR Path="/5F78AFC8/5F818ECB" Ref="#PWR?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F818ECB" Ref="#PWR02101"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F818ECB" Ref="#PWR?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F818ECB" Ref="#PWR02501"  Part="1" 
+F 0 "#PWR02501" H 1350 4350 50  0001 C CNN
+F 1 "GND" H 1355 4427 50  0000 C CNN
+F 2 "" H 1350 4600 50  0001 C CNN
+F 3 "" H 1350 4600 50  0001 C CNN
+	1    1350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F819C70
+P 1350 4350
+AR Path="/5F64F622/5F819C70" Ref="C?"  Part="1" 
+AR Path="/5F78AFC8/5F819C70" Ref="C?"  Part="1" 
+AR Path="/5F7F8851/5F7FB5B8/5F819C70" Ref="C2101"  Part="1" 
+AR Path="/5F8070C3/5F7FB5B8/5F819C70" Ref="C?"  Part="1" 
+AR Path="/5F8AD0E2/5F7FB5B8/5F819C70" Ref="C2501"  Part="1" 
+F 0 "C2501" H 1465 4304 50  0000 L CNN
+F 1 "100n" H 1465 4395 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf" H 1350 4350 50  0001 C CNN
+F 4 "LCSC" H 1350 4350 50  0001 C CNN "Distributor"
+F 5 "Walsin Tech Corp" H 1350 4350 50  0001 C CNN "Manufacturer"
+F 6 "100nF ±10% 16V X7R" H 1350 4350 50  0001 C CNN "Notes"
+F 7 "" H 1350 4350 50  0001 C CNN "OrderNr"
+F 8 "" H 1350 4350 50  0001 C CNN "PartNr"
+F 9 "0.002141" H 1350 4350 50  0001 C CNN "PriceEUR"
+F 10 "500" H 1350 4350 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html" H 1350 4350 50  0001 C CNN "Weblink"
+F 12 "C80516" H 1350 4350 50  0001 C CNN "DistOrderNr"
+F 13 "0603B104K160CT" H 1350 4350 50  0001 C CNN "ManPartNr"
+	1    1350 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 4100 1350 4200
+Wire Wire Line
+	1350 4500 1350 4600
+$EndSCHEMATC
