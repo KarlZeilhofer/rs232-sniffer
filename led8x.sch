@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 27
 Title "RS-232 Sniffer"
-Date "2020-10-07"
+Date "2020-10-09"
 Rev "v20.0.0-dev"
 Comp "HTL-Steyr"
-Comment1 "Karl Zeilhofer"
+Comment1 "Prof. Karl Zeilhofer"
 Comment2 ""
 Comment3 ""
 Comment4 ""

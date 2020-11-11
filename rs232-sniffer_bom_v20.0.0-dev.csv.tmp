@@ -1,0 +1,35 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Weblink,DistOrderNr,PriceForQty,PriceEUR,Distributor,ManPartNr,Manufacturer,Notes
+1,Unpolarized capacitor,C,C2501 C2502 C2503 C2504 C2505 C2506 C2601 C2602 C2603 C2604 C2605 C2606 C2607 C2608 C2609 C2610 C2701 C2702 C2703 C2704 C2705 C2706 C2707 C2708 C2709 C2710,100n,C_0603_1608Metric,26,https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B104K160CT_C80516.html,C80516,500,0.002141,LCSC,0603B104K160CT,Walsin Tech Corp,100nF ±10% 16V X7R
+2,Unpolarized capacitor,C,C101 C102,10u/16V,C_0603_1608Metric,2,,,,,,,,,
+3,"Dual LED, cathodes on pins 3 and 4",LED_Dual_AACC,D101 D102 D301 D401 D501 D601 D701 D801 D901 D1001 D1201 D1301 D1401 D1501 D1601 D1701 D1801 D1901,red/green,LED_LiteOn_LTST-C195KGJRKT,18,https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html,C125104,1000,0.023,LCSC,LTST-C195KGJRKT,LiteOn,Dual LED
+4,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J2402 J2405,"Buchsenleiste 1x6, horizontal",PinSocket_1x06_P2.54mm_Horizontal,2,,,,,,,,,
+5,9-pin male D-SUB connector,RS232_DB9_Female,J101,DB9_Female,DSUB-9_Female_EdgeMount_P2.77mm,1,https://datasheet.lcsc.com/szlcsc/1811081030_CONNFLY-Elec-DS1033-09FUNSiSS-CT_C75748.pdf,https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Female-blue-Welded-wire-type-Tin-plating-Without-screws_C75748.html,C75748,150,0.063911,LCSC,DS1033-09FUNSiSS-CT,CONNFLY Elec,RS232 weiblich
+6,9-pin male D-SUB connector,RS232_DB9_Male,J103,DB9_Male,DSUB-9_Male_EdgeMount_P2.77mm,1,,https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Male-head-blue-Welded-wire-type-Tin-plating-Without-screws_C75746.html,C75746,150,0.059745,LCSC,DS1033-09MUNSiSS,CONNFLY Elec,RS232 männlich
+7,"Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x09_Odd_Even,J102 J104 J2001 J2002 J2401 J2403,Stiftleiste 2x9,PinHeader_2x09_P2.54mm_Vertical_SMD,6,,https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C88175_C88175.html,C88175,100,0.036,LCSC,C88175,BOOMELE(Boom Precision Elec),SMD
+8,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J2501 J2502,USB-C/16p,USB_C_Receptacle_LCSC_C167321,2,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-C167321_C167321.html,C167321,100,0.155,LCSC,C167321,Jing Extension,"USB-C, 16-polig, USB 2.0"
+9,Resistor,R,R118 R120,0R,R_0603_1608Metric,2,,,,,,LCSC,,,
+10,,R_sig,R105 R106 R107 R108 R109 R110 R111 R112 R114 R115 R116 R117 R119 R121 R122 R123 R2004 R2005 R2006 R2007 R2008 R2403 R2404 R2406 R2409 R2410 R2411 R2420 R2421 R2422 R2423 R2424,100R,R_0603_1608Metric,32,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html,C25201,1000,0.000563,LCSC,0603WAJ0101T5E,UNI-ROYAL,"100R, 5%, 100mW"
+11,Resistor,R,R2501 R2502,100R,R_0603_1608Metric,2,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html,C25201,1000,0.000563,LCSC,0603WAJ0101T5E,UNI-ROYAL,"100R, 5%, 100mW"
+12,,R_sig,R113 R2001 R2002 R2003 R2401 R2402 R2405 R2407 R2408 R2412 R2413 R2414 R2415 R2416 R2417 R2418 R2419,1k,R_0603_1608Metric,17,,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html,C103662,1000,0.000527,LCSC,RTT03472JTP,RALEC,4.7kΩ ±5% 0.1W ±100ppm/℃
+13,Resistor,R,R301 R401 R501 R601 R701 R801 R901 R1001 R1201 R1301 R1401 R1501 R1601 R1701 R1801 R1901,4k7,R_0603_1608Metric,16,https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html,C103662,1000,0.000527,LCSC,RTT03472JTP,RALEC,4.7kΩ ±5% 0.1W ±100ppm/℃
+14,,R_sig,R104,4k7,R_0603_1608Metric,1,https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html,C103662,1000,0.000527,LCSC,RTT03472JTP,RALEC,4.7kΩ ±5% 0.1W ±100ppm/℃
+15,"8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x08,SW101 SW2401 SW2402,DIP-Switch 8,SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile,3,https://datasheet.lcsc.com/szlcsc/Made-in-China-HAD-08HWA-R_C4682.pdf,https://lcsc.com/product-detail/DIP-Switches_Cixi-Tonver-Elec-HAD-08HWA-R_C4682.html,C4682,100,0.262623,LCSC,HAD-08HWA-R,Cixi Tonver Elec,SMD DIP-Switch
+16,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",AMS1117-3.3,U101,AMS1117-3.3,SOT-223-3_TabPin2,1,http://www.advanced-monolithic.com/pdf/ds1117.pdf,https://lcsc.com/products/Dropout-Regulators-LDO_387.html?q=ams1117-3.3,C347222,100,0.023029,LCSC,AMS1117-3.3,UMW Youtai Semiconductor,"LDO, 3.3V"
+17,"USB serial converter, UART, SOIC-16",CH340C,U2501 U2502,CH340C,SOIC-16_3.9x9.9mm_P1.27mm,2,http://www.datasheet5.com/pdf-local-2195953,https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html,C84681,100,0.239,LCSC,CH340C,WCH(Jiangsu Qin Heng),USB-UART with internal clock
+18,"3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors",MAX3232,U2601 U2602 U2701 U2702,MAX3232,SOIC-16_3.9x9.9mm_P1.27mm,4,https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf,https://lcsc.com/product-detail/Uncategorized_HGSEMI-MAX3232EIM-TR_C434486.html,C434486,100,0.188404,LCSC,MAX3232EIM/TR,HGSEMI,"RS232 - UART Umsetzer, 3V3 oder 5V"
+
+
+
+
+
+Component Groups:,18
+Component Count:,138
+Fitted Components:,138
+Number of PCBs:,1
+Total components:,138
+Schematic Version:,v20.0.0-dev
+Schematic Date:,2020-10-09
+PCB Variant:,[u'default']
+BoM Date:,2020-10-13T14:38:17 CEST
+Schematic Source:,rs232-sniffer.sch
+KiCad Version:,Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1

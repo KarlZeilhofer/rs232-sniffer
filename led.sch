@@ -3,37 +3,37 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 27
+Sheet 3 27
 Title "RS-232 Sniffer"
-Date "2020-10-07"
+Date "2020-10-09"
 Rev "v20.0.0-dev"
 Comp "HTL-Steyr"
-Comment1 "Karl Zeilhofer"
+Comment1 "Prof. Karl Zeilhofer"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5050 5450 0    59   Input ~ 0
+Text HLabel 5000 3750 0    59   Input ~ 0
 Signal
-Text Notes 5500 4850 0    59   ~ 0
+Text Notes 5450 3150 0    59   ~ 0
 High (-3...-15V)
-Text Notes 5450 6150 0    59   ~ 0
+Text Notes 5400 4450 0    59   ~ 0
 Low (+3...+15V)
 Wire Wire Line
-	5050 5450 5250 5450
+	5000 3750 5200 3750
 Wire Wire Line
-	5250 5350 5250 5450
-Connection ~ 5250 5450
+	5200 3650 5200 3750
+Connection ~ 5200 3750
 Wire Wire Line
-	5250 5450 5400 5450
-Text Notes 5850 5350 1    50   ~ 0
+	5200 3750 5350 3750
+Text Notes 5800 3650 1    50   ~ 0
 gn
-Text Notes 5850 5850 1    50   ~ 0
+Text Notes 5800 4150 1    50   ~ 0
 rt
 $Comp
 L Device:LED_Dual_AACC D1201
 U 1 1 5F74784B
-P 5850 5550
+P 5800 3850
 AR Path="/5F87EA32/5F813BE3/5F74784B" Ref="D1201"  Part="1" 
 AR Path="/5F80F0BB/5F813BE3/5F74784B" Ref="D301"  Part="1" 
 AR Path="/5F80F0BB/5F813C65/5F74784B" Ref="D401"  Part="1" 
@@ -50,27 +50,27 @@ AR Path="/5F87EA32/5F813D9D/5F74784B" Ref="D1601"  Part="1"
 AR Path="/5F87EA32/5F813DD9/5F74784B" Ref="D1701"  Part="1" 
 AR Path="/5F87EA32/5F813E3D/5F74784B" Ref="D1801"  Part="1" 
 AR Path="/5F87EA32/5F813E87/5F74784B" Ref="D1901"  Part="1" 
-F 0 "D1901" V 5650 5950 50  0000 L CNN
-F 1 "red/green" H 4750 5400 50  0000 L CNN
-F 2 "rs232-sniffer:LED_LiteOn_LTST-C195KGJRKT" H 5880 5550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 5880 5550 50  0001 C CNN
-F 4 "LiteOn" H 5850 5550 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C195KGJRKT" H 5850 5550 50  0001 C CNN "ManPartNr"
-F 6 "LCSC" H 5850 5550 50  0001 C CNN "Distributor"
-F 7 "C125104" H 5850 5550 50  0001 C CNN "DistOrderNr"
-F 8 "0.023" H 5850 5550 50  0001 C CNN "PriceEUR"
-F 9 "1000" H 5850 5550 50  0001 C CNN "PriceForQty"
-F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 5850 5550 50  0001 C CNN "Weblink"
-F 11 "Dual LED" H 5850 5550 50  0001 C CNN "Notes"
-	1    5850 5550
+F 0 "D1901" V 5600 4250 50  0000 L CNN
+F 1 "red/green" H 4700 3700 50  0000 L CNN
+F 2 "htl_smd:LED_LiteOn_LTST-C195KGJRKT" H 5830 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 5830 3850 50  0001 C CNN
+F 4 "LiteOn" H 5800 3850 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C195KGJRKT" H 5800 3850 50  0001 C CNN "ManPartNr"
+F 6 "LCSC" H 5800 3850 50  0001 C CNN "Distributor"
+F 7 "C125104" H 5800 3850 50  0001 C CNN "DistOrderNr"
+F 8 "0.023" H 5800 3850 50  0001 C CNN "PriceEUR"
+F 9 "1000" H 5800 3850 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 5800 3850 50  0001 C CNN "Weblink"
+F 11 "Dual LED" H 5800 3850 50  0001 C CNN "Notes"
+	1    5800 3850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 5450 6800 5450
+	6550 3750 6750 3750
 $Comp
 L power:GND #PWR?
 U 1 1 5DEC45FD
-P 6800 5450
+P 6750 3750
 AR Path="/5DEBE61F/5DEC45FD" Ref="#PWR?"  Part="1" 
 AR Path="/5DEDE6C8/5DEC45FD" Ref="#PWR?"  Part="1" 
 AR Path="/5DEDFC78/5DEC45FD" Ref="#PWR?"  Part="1" 
@@ -96,17 +96,17 @@ AR Path="/5F87EA32/5F813D9D/5DEC45FD" Ref="#PWR01601"  Part="1"
 AR Path="/5F87EA32/5F813DD9/5DEC45FD" Ref="#PWR01701"  Part="1" 
 AR Path="/5F87EA32/5F813E3D/5DEC45FD" Ref="#PWR01801"  Part="1" 
 AR Path="/5F87EA32/5F813E87/5DEC45FD" Ref="#PWR01901"  Part="1" 
-F 0 "#PWR01901" H 6800 5200 50  0001 C CNN
-F 1 "GND" V 6805 5322 50  0000 R CNN
-F 2 "" H 6800 5450 50  0001 C CNN
-F 3 "" H 6800 5450 50  0001 C CNN
-	1    6800 5450
+F 0 "#PWR01901" H 6750 3500 50  0001 C CNN
+F 1 "GND" V 6755 3622 50  0000 R CNN
+F 2 "" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0001 C CNN
+	1    6750 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DEC44D0
-P 6450 5450
+P 6400 3750
 AR Path="/5DEBE61F/5DEC44D0" Ref="R?"  Part="1" 
 AR Path="/5DEDE6C8/5DEC44D0" Ref="R?"  Part="1" 
 AR Path="/5DEDFC78/5DEC44D0" Ref="R?"  Part="1" 
@@ -132,49 +132,49 @@ AR Path="/5F87EA32/5F813D9D/5DEC44D0" Ref="R1601"  Part="1"
 AR Path="/5F87EA32/5F813DD9/5DEC44D0" Ref="R1701"  Part="1" 
 AR Path="/5F87EA32/5F813E3D/5DEC44D0" Ref="R1801"  Part="1" 
 AR Path="/5F87EA32/5F813E87/5DEC44D0" Ref="R1901"  Part="1" 
-F 0 "R1901" V 6243 5450 50  0000 C CNN
-F 1 "4k7" V 6334 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 5450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf" H 6450 5450 50  0001 C CNN
-F 4 "C103662" H 6450 5450 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6450 5450 50  0001 C CNN "Distributor"
-F 6 "RTT03472JTP" H 6450 5450 50  0001 C CNN "ManPartNr"
-F 7 "RALEC" H 6450 5450 50  0001 C CNN "Manufacturer"
-F 8 "4.7kΩ ±5% 0.1W ±100ppm/℃" H 6450 5450 50  0001 C CNN "Notes"
-F 9 "0.000527" H 6450 5450 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 6450 5450 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html" H 6450 5450 50  0001 C CNN "Weblink"
-	1    6450 5450
+F 0 "R1901" V 6193 3750 50  0000 C CNN
+F 1 "4k7" V 6284 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf" H 6400 3750 50  0001 C CNN
+F 4 "C103662" H 6400 3750 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6400 3750 50  0001 C CNN "Distributor"
+F 6 "RTT03472JTP" H 6400 3750 50  0001 C CNN "ManPartNr"
+F 7 "RALEC" H 6400 3750 50  0001 C CNN "Manufacturer"
+F 8 "4.7kΩ ±5% 0.1W ±100ppm/℃" H 6400 3750 50  0001 C CNN "Notes"
+F 9 "0.000527" H 6400 3750 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 6400 3750 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html" H 6400 3750 50  0001 C CNN "Weblink"
+	1    6400 3750
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5400 5950 5400 5450
-Connection ~ 5400 5450
+	5350 4250 5350 3750
+Connection ~ 5350 3750
 Wire Wire Line
-	5400 5450 5550 5450
+	5350 3750 5500 3750
 Wire Wire Line
-	6150 5450 6200 5450
+	6100 3750 6150 3750
 Wire Wire Line
-	5550 5650 5500 5650
+	5500 3950 5450 3950
 Wire Wire Line
-	5500 5650 5500 5200
+	5450 3950 5450 3500
 Wire Wire Line
-	5500 5200 6200 5200
+	5450 3500 6150 3500
 Wire Wire Line
-	6200 5200 6200 5450
-Connection ~ 6200 5450
+	6150 3500 6150 3750
+Connection ~ 6150 3750
 Wire Wire Line
-	6200 5450 6300 5450
+	6150 3750 6250 3750
 Wire Wire Line
-	6150 5650 6200 5650
+	6100 3950 6150 3950
 Wire Wire Line
-	6200 5650 6200 5950
+	6150 3950 6150 4250
 Wire Wire Line
-	5400 5950 6200 5950
+	5350 4250 6150 4250
 $Comp
 L Connector:TestPoint TP1201
 U 1 1 5F74E0AC
-P 5250 5350
+P 5200 3650
 AR Path="/5F87EA32/5F813BE3/5F74E0AC" Ref="TP1201"  Part="1" 
 AR Path="/5F80F0BB/5F813BE3/5F74E0AC" Ref="TP301"  Part="1" 
 AR Path="/5F80F0BB/5F813C65/5F74E0AC" Ref="TP401"  Part="1" 
@@ -191,21 +191,23 @@ AR Path="/5F87EA32/5F813D9D/5F74E0AC" Ref="TP1601"  Part="1"
 AR Path="/5F87EA32/5F813DD9/5F74E0AC" Ref="TP1701"  Part="1" 
 AR Path="/5F87EA32/5F813E3D/5F74E0AC" Ref="TP1801"  Part="1" 
 AR Path="/5F87EA32/5F813E87/5F74E0AC" Ref="TP1901"  Part="1" 
-F 0 "TP1901" H 5250 5675 50  0000 C CNN
-F 1 "SMD Testpoint" H 5250 5584 50  0000 C CNN
-F 2 "rs232-sniffer:Keystone_5016" H 5450 5350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 5450 5350 50  0001 C CNN
-F 4 "Keystone" H 5250 5350 50  0001 C CNN "Manufacturer"
-F 5 "" H 5250 5350 50  0001 C CNN "PartNr"
-F 6 "LCSC" H 5250 5350 50  0001 C CNN "Distributor"
-F 7 "" H 5250 5350 50  0001 C CNN "OrderNr"
-F 8 "0.084" H 5250 5350 50  0001 C CNN "PriceEUR"
-F 9 "1000" H 5250 5350 50  0001 C CNN "PriceForQty"
-F 10 "SMD Testöse" H 5250 5350 50  0001 C CNN "Notes"
-F 11 "5016" H 5250 5350 50  0001 C CNN "ManPartNr"
-F 12 "C238129" H 5250 5350 50  0001 C CNN "DistOrderNr"
-F 13 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 5250 5350 50  0001 C CNN "Weblink"
-	1    5250 5350
+F 0 "TP1901" H 5200 3975 50  0000 C CNN
+F 1 "SMD Testpoint" H 5200 3884 50  0000 C CNN
+F 2 "htl_smd:Keystone_5016" H 5400 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 5400 3650 50  0001 C CNN
+F 4 "Keystone" H 5200 3650 50  0001 C CNN "Manufacturer"
+F 5 "" H 5200 3650 50  0001 C CNN "PartNr"
+F 6 "LCSC" H 5200 3650 50  0001 C CNN "Distributor"
+F 7 "" H 5200 3650 50  0001 C CNN "OrderNr"
+F 8 "0.084" H 5200 3650 50  0001 C CNN "PriceEUR"
+F 9 "1000" H 5200 3650 50  0001 C CNN "PriceForQty"
+F 10 "SMD Testöse" H 5200 3650 50  0001 C CNN "Notes"
+F 11 "5016" H 5200 3650 50  0001 C CNN "ManPartNr"
+F 12 "C238129" H 5200 3650 50  0001 C CNN "DistOrderNr"
+F 13 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 5200 3650 50  0001 C CNN "Weblink"
+	1    5200 3650
 	1    0    0    -1  
 $EndComp
+Text Notes 5200 2800 0    63   ~ 0
+Grün: High (-3...-15V)\nRot: Low (+3...+15V)
 $EndSCHEMATC

@@ -1,7 +1,6 @@
 (sym_lib_table
-  (lib (name rs232-sniffer-rescue)(type Legacy)(uri ${KIPRJMOD}/rs232-sniffer-rescue.lib)(options "")(descr ""))
-  (lib (name htl_virtual)(type Legacy)(uri ${HOME}/kicad-htl-lib/symbols/htl_virtual.lib)(options "")(descr ""))
-  (lib (name htl_connectors)(type Legacy)(uri ${HOME}/kicad-htl-lib/symbols/htl_connectors.lib)(options "")(descr ""))
-  (lib (name htl_ics)(type Legacy)(uri ${HOME}/kicad-htl-lib/symbols/htl_ics.lib)(options "")(descr ""))
-  (lib (name htl_passives)(type Legacy)(uri ${HOME}/kicad-htl-lib/symbols/htl_passives.lib)(options "")(descr ""))
+  (lib (name htl_virtual)(type Legacy)(uri ${HTL_LIB}/symbols/htl_virtual.lib)(options "")(descr ""))
+  (lib (name htl_connectors)(type Legacy)(uri ${HTL_LIB}/symbols/htl_connectors.lib)(options "")(descr ""))
+  (lib (name htl_ics)(type Legacy)(uri ${HTL_LIB}/symbols/htl_ics.lib)(options "")(descr ""))
+  (lib (name htl_passives)(type Legacy)(uri ${HTL_LIB}/symbols/htl_passives.lib)(options "")(descr ""))
 )

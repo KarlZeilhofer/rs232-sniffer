@@ -1,0 +1,9 @@
+10-09 15:39:17 place_footprints.action_place_footprints 414:Plugin executed on: 'linux'
+10-09 15:39:17 place_footprints.action_place_footprints 415:Plugin executed with python version: '3.6.9 (default, Jul 17 2020, 12:50:27) \n[GCC 8.4.0]'
+10-09 15:39:17 place_footprints.action_place_footprints 416:KiCad build version: 5.1.6-c6e7f7d~87~ubuntu18.04.1
+10-09 15:39:17 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+10-09 15:39:25 place_footprints.place_footprints 213:getting project hierarchy from schematics
+10-09 15:39:25 place_footprints.place_footprints 228:getting a list of all footprints on board
+10-09 15:39:58 place_footprints.action_place_footprints 654:Modules to place: ['J101']
+10-09 15:39:58 place_footprints.place_footprints 406:Starting placing with matrix layout
+10-09 15:39:58 place_footprints.action_place_footprints 726:Placing complete
