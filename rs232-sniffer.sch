@@ -13,25 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L htl_connectors:RS232_DB9_Male J103
-U 1 1 5DE56645
-P 8250 2450
-F 0 "J103" H 8168 3049 50  0000 C CNN
-F 1 "DB9_Male" H 8168 3140 50  0000 C CNN
-F 2 "htl_connectors:DSUB-9_Male_EdgeMount_P2.77mm" H 8250 2450 50  0001 C CNN
-F 3 "" H 8250 2450 50  0001 C CNN
-F 4 "LCSC" H 8250 2450 50  0001 C CNN "Distributor"
-F 5 " CONNFLY Elec" H 8250 2450 50  0001 C CNN "Manufacturer"
-F 6 "RS232 männlich" H 8250 2450 50  0001 C CNN "Notes"
-F 7 "0.059745" H 8250 2450 50  0001 C CNN "PriceEUR"
-F 8 "150" H 8250 2450 50  0001 C CNN "PriceForQty"
-F 9 "https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Male-head-blue-Welded-wire-type-Tin-plating-Without-screws_C75746.html" H 8250 2450 50  0001 C CNN "Weblink"
-F 10 "C75746" H 8250 2450 50  0001 C CNN "DistOrderNr"
-F 11 "DS1033-09MUNSiSS" H 8250 2450 50  0001 C CNN "ManPartNr"
-	1    8250 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 2850 2750 2850
 Text Notes 2550 3150 2    118  ~ 24
@@ -72,120 +53,6 @@ Wire Wire Line
 	7200 2950 7200 2850
 Wire Wire Line
 	7200 2850 7350 2850
-$Comp
-L htl_passives:R_sig R113
-U 1 1 5DE86646
-P 5900 5150
-F 0 "R113" V 5900 5150 50  0000 C CNN
-F 1 "100R" V 6016 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5900 5150 50  0001 C CNN
-F 4 "C25201" H 5900 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5900 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 5900 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 5900 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 5900 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 5900 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5900 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5900 5150 50  0001 C CNN "Weblink"
-	1    5900 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R114
-U 1 1 5DE88D53
-P 6000 5150
-F 0 "R114" V 6000 5150 50  0000 C CNN
-F 1 "100R" V 6116 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6000 5150 50  0001 C CNN
-F 4 "C25201" H 6000 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6000 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 6000 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 6000 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 6000 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 6000 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 6000 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6000 5150 50  0001 C CNN "Weblink"
-	1    6000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R115
-U 1 1 5DE8913B
-P 6100 5150
-F 0 "R115" V 6100 5150 50  0000 C CNN
-F 1 "100R" V 6216 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6100 5150 50  0001 C CNN
-F 4 "C25201" H 6100 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6100 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 6100 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 6100 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 6100 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 6100 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 6100 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6100 5150 50  0001 C CNN "Weblink"
-	1    6100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R116
-U 1 1 5DE892AF
-P 6200 5150
-F 0 "R116" V 6200 5150 50  0000 C CNN
-F 1 "100R" V 6316 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6200 5150 50  0001 C CNN
-F 4 "C25201" H 6200 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6200 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 6200 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 6200 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 6200 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 6200 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 6200 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6200 5150 50  0001 C CNN "Weblink"
-	1    6200 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R102
-U 1 1 5DE8CAD8
-P 3150 5150
-F 0 "R102" V 3150 5150 50  0000 C CNN
-F 1 "100R" V 3266 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3150 5150 50  0001 C CNN
-F 4 "C25201" H 3150 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3150 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3150 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3150 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3150 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3150 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3150 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3150 5150 50  0001 C CNN "Weblink"
-	1    3150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R103
-U 1 1 5DE8CC3E
-P 3250 5150
-F 0 "R103" V 3250 5150 50  0000 C CNN
-F 1 "100R" V 3366 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3250 5150 50  0001 C CNN
-F 4 "C25201" H 3250 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3250 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3250 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3250 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3250 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3250 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3250 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3250 5150 50  0001 C CNN "Weblink"
-	1    3250 5150
-	1    0    0    -1  
-$EndComp
 Text Notes 5100 1350 0    118  ~ 24
 RS232-Sniffer
 $Comp
@@ -200,44 +67,6 @@ F 3 "~" H 2750 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L htl_passives:R_sig R112
-U 1 1 5DE86192
-P 5800 5150
-F 0 "R112" V 5800 5150 50  0000 C CNN
-F 1 "100R" V 5916 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5800 5150 50  0001 C CNN
-F 4 "C25201" H 5800 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5800 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 5800 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 5800 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 5800 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 5800 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5800 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5800 5150 50  0001 C CNN "Weblink"
-	1    5800 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Flag TP101
-U 1 1 5DE76C88
-P 4050 7550
-F 0 "TP101" H 4006 7598 50  0000 R CNN
-F 1 "SMD Testpoint" H 4006 7553 50  0001 R CNN
-F 2 "htl_smd:Keystone_5016" H 4250 7550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 4250 7550 50  0001 C CNN
-F 4 "C238129" H 4050 7550 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4050 7550 50  0001 C CNN "Distributor"
-F 6 "5016" H 4050 7550 50  0001 C CNN "ManPartNr"
-F 7 "Keystone" H 4050 7550 50  0001 C CNN "Manufacturer"
-F 8 "SMD Testöse" H 4050 7550 50  0001 C CNN "Notes"
-F 9 "0.084" H 4050 7550 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 4050 7550 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 4050 7550 50  0001 C CNN "Weblink"
-	1    4050 7550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5DE7727B
 P 4050 7550
@@ -249,77 +78,6 @@ F 3 "" H 4050 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H101
-U 1 1 5F621748
-P 5750 6950
-F 0 "H101" H 5850 6996 50  0000 L CNN
-F 1 "MountingHole" H 5850 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 5750 6950 50  0001 C CNN
-F 3 "" H 5750 6950 50  0001 C CNN
-F 4 "NAP" H 5750 6950 50  0001 C CNN "Notes"
-F 5 "nap" H 5750 6950 50  0001 C CNN "DistOrderNr"
-	1    5750 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H102
-U 1 1 5F621FC8
-P 5750 7150
-F 0 "H102" H 5850 7196 50  0000 L CNN
-F 1 "MountingHole" H 5850 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 5750 7150 50  0001 C CNN
-F 3 "" H 5750 7150 50  0001 C CNN
-F 4 "NAP" H 5750 7150 50  0001 C CNN "Notes"
-F 5 "nap" H 5750 7150 50  0001 C CNN "DistOrderNr"
-	1    5750 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H103
-U 1 1 5F6221B7
-P 5750 7350
-F 0 "H103" H 5850 7396 50  0000 L CNN
-F 1 "MountingHole" H 5850 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 5750 7350 50  0001 C CNN
-F 3 "" H 5750 7350 50  0001 C CNN
-F 4 "NAP" H 5750 7350 50  0001 C CNN "Notes"
-F 5 "nap" H 5750 7350 50  0001 C CNN "DistOrderNr"
-	1    5750 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H104
-U 1 1 5F62245D
-P 5750 7550
-F 0 "H104" H 5850 7596 50  0000 L CNN
-F 1 "MountingHole" H 5850 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 5750 7550 50  0001 C CNN
-F 3 "" H 5750 7550 50  0001 C CNN
-F 4 "NAP" H 5750 7550 50  0001 C CNN "Notes"
-F 5 "nap" H 5750 7550 50  0001 C CNN "DistOrderNr"
-	1    5750 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Flag TP102
-U 1 1 5F62C8A7
-P 4600 7550
-F 0 "TP102" H 4556 7598 50  0000 R CNN
-F 1 "SMD Testpoint" H 4556 7553 50  0001 R CNN
-F 2 "htl_smd:Keystone_5016" H 4800 7550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 4800 7550 50  0001 C CNN
-F 4 "C238129" H 4600 7550 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4600 7550 50  0001 C CNN "Distributor"
-F 6 "5016" H 4600 7550 50  0001 C CNN "ManPartNr"
-F 7 "Keystone" H 4600 7550 50  0001 C CNN "Manufacturer"
-F 8 "SMD Testöse" H 4600 7550 50  0001 C CNN "Notes"
-F 9 "0.084" H 4600 7550 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 4600 7550 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 4600 7550 50  0001 C CNN "Weblink"
-	1    4600 7550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 5F62C8AD
 P 4600 7550
@@ -329,25 +87,6 @@ F 2 "" H 4600 7550 50  0001 C CNN
 F 3 "" H 4600 7550 50  0001 C CNN
 	1    4600 7550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_Flag TP103
-U 1 1 5F630151
-P 5150 7550
-F 0 "TP103" H 5106 7598 50  0000 R CNN
-F 1 "SMD Testpoint" H 5106 7553 50  0001 R CNN
-F 2 "htl_smd:Keystone_5016" H 5350 7550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 5350 7550 50  0001 C CNN
-F 4 "C238129" H 5150 7550 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5150 7550 50  0001 C CNN "Distributor"
-F 6 "5016" H 5150 7550 50  0001 C CNN "ManPartNr"
-F 7 "Keystone" H 5150 7550 50  0001 C CNN "Manufacturer"
-F 8 "SMD Testöse" H 5150 7550 50  0001 C CNN "Notes"
-F 9 "0.084" H 5150 7550 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5150 7550 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 5150 7550 50  0001 C CNN "Weblink"
-	1    5150 7550
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
@@ -376,120 +115,6 @@ Text Notes 6350 2650 0    59   ~ 0
 ClearToSend
 Text Notes 6350 2750 0    59   ~ 0
 RingIndicator
-$Comp
-L htl_passives:R_sig R107
-U 1 1 5F6DEE0E
-P 3800 5150
-F 0 "R107" V 3800 5150 50  0000 C CNN
-F 1 "100R" V 3916 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3800 5150 50  0001 C CNN
-F 4 "C25201" H 3800 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3800 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3800 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3800 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3800 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3800 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3800 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3800 5150 50  0001 C CNN "Weblink"
-	1    3800 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R106
-U 1 1 5F6DEE14
-P 3700 5150
-F 0 "R106" V 3700 5150 50  0000 C CNN
-F 1 "100R" V 3816 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3700 5150 50  0001 C CNN
-F 4 "C25201" H 3700 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3700 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3700 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3700 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3700 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3700 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3700 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3700 5150 50  0001 C CNN "Weblink"
-	1    3700 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R105
-U 1 1 5F6DEE1A
-P 3600 5150
-F 0 "R105" V 3600 5150 50  0000 C CNN
-F 1 "100R" V 3716 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3600 5150 50  0001 C CNN
-F 4 "C25201" H 3600 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3600 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3600 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3600 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3600 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3600 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3600 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3600 5150 50  0001 C CNN "Weblink"
-	1    3600 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R111
-U 1 1 5F758B83
-P 5600 5150
-F 0 "R111" V 5600 5150 50  0000 C CNN
-F 1 "100R" V 5716 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5600 5150 50  0001 C CNN
-F 4 "C25201" H 5600 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5600 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 5600 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 5600 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 5600 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 5600 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5600 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5600 5150 50  0001 C CNN "Weblink"
-	1    5600 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R110
-U 1 1 5F758B89
-P 5500 5150
-F 0 "R110" V 5500 5150 50  0000 C CNN
-F 1 "100R" V 5616 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5500 5150 50  0001 C CNN
-F 4 "C25201" H 5500 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5500 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 5500 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 5500 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 5500 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 5500 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5500 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5500 5150 50  0001 C CNN "Weblink"
-	1    5500 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R109
-U 1 1 5F758B8F
-P 5400 5150
-F 0 "R109" V 5400 5150 50  0000 C CNN
-F 1 "100R" V 5516 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5330 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5400 5150 50  0001 C CNN
-F 4 "C25201" H 5400 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 5400 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 5400 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 5400 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 5400 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 5400 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 5400 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5400 5150 50  0001 C CNN "Weblink"
-	1    5400 5150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5400 5000 5400 4850
 Wire Wire Line
@@ -532,63 +157,6 @@ F9 "Signal9" I L 6350 3550 50
 $EndSheet
 Text Notes 600  7650 0    50   ~ 0
 (1) RTR hatte früher (vor 1980) RTS (Request to send geheißen)
-$Comp
-L htl_passives:R_sig R104
-U 1 1 5F79507A
-P 3350 5150
-F 0 "R104" V 3350 5150 50  0000 C CNN
-F 1 "100R" V 3466 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3350 5150 50  0001 C CNN
-F 4 "C25201" H 3350 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3350 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3350 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3350 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3350 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3350 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3350 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3350 5150 50  0001 C CNN "Weblink"
-	1    3350 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_passives:R_sig R108
-U 1 1 5F79FD9F
-P 3900 5150
-F 0 "R108" V 3900 5150 50  0000 C CNN
-F 1 "100R" V 4016 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3900 5150 50  0001 C CNN
-F 4 "C25201" H 3900 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3900 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3900 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3900 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3900 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3900 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3900 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3900 5150 50  0001 C CNN "Weblink"
-	1    3900 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x09_Odd_Even J102
-U 1 1 5DEB8D01
-P 4600 2450
-F 0 "J102" H 4650 3067 50  0000 C CNN
-F 1 "Stiftleiste 2x9" H 4650 2976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical_SMD" H 4600 2450 50  0001 C CNN
-F 3 "" H 4600 2450 50  0001 C CNN
-F 4 "LCSC" H 4600 2450 50  0001 C CNN "Distributor"
-F 5 "BOOMELE(Boom Precision Elec)" H 4600 2450 50  0001 C CNN "Manufacturer"
-F 6 "SMD" H 4600 2450 50  0001 C CNN "Notes"
-F 7 "https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C88175_C88175.html" H 4600 2450 50  0001 C CNN "Weblink"
-F 8 "C88175" H 4600 2450 50  0001 C CNN "DistOrderNr"
-F 9 "C88175" H 4600 2450 50  0001 C CNN "ManPartNr"
-F 10 "0.036" H 4600 2450 50  0001 C CNN "PriceEUR"
-F 11 "100" H 4600 2450 50  0001 C CNN "PriceForQty"
-	1    4600 2450
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4100 5400 750  900 
 U 5F8AD0E2
@@ -629,29 +197,6 @@ Wire Wire Line
 	4100 4650 4100 4850
 Wire Wire Line
 	4100 4850 5400 4850
-$Comp
-L Switch:SW_DIP_x08 SW?
-U 1 1 5F8EBC49
-P 4000 4350
-AR Path="/5F8070C3/5F8EBC49" Ref="SW?"  Part="1" 
-AR Path="/5F7F8851/5F8EBC49" Ref="SW?"  Part="1" 
-AR Path="/5F8AD0E2/5F8EBC49" Ref="SW?"  Part="1" 
-AR Path="/5F8EBC49" Ref="SW101"  Part="1" 
-F 0 "SW101" V 4046 3920 50  0000 R CNN
-F 1 "DIP-Switch 8" V 3955 3920 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile" H 4000 4350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Made-in-China-HAD-08HWA-R_C4682.pdf" H 4000 4350 50  0001 C CNN
-F 4 "C4682" H 4000 4350 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 4000 4350 50  0001 C CNN "Distributor"
-F 6 "HAD-08HWA-R" H 4000 4350 50  0001 C CNN "ManPartNr"
-F 7 "Cixi Tonver Elec " H 4000 4350 50  0001 C CNN "Manufacturer"
-F 8 "SMD DIP-Switch" H 4000 4350 50  0001 C CNN "Notes"
-F 9 "0.262623" H 4000 4350 50  0001 C CNN "PriceEUR"
-F 10 "100" H 4000 4350 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/DIP-Switches_Cixi-Tonver-Elec-HAD-08HWA-R_C4682.html" H 4000 4350 50  0001 C CNN "Weblink"
-	1    4000 4350
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 4000 4050
 NoConn ~ 4000 4650
 NoConn ~ 6200 5300
@@ -659,25 +204,6 @@ Text Notes 6700 5250 1    118  ~ 24
 Direkte \nVerdrahtung
 Text Notes 2900 4450 1    50   ~ 0
 siehe Wikipedia
-$Comp
-L Connector_Generic:Conn_02x09_Odd_Even J104
-U 1 1 5FA03438
-P 10250 5450
-F 0 "J104" H 10300 6067 50  0000 C CNN
-F 1 "Stiftleiste 2x9" H 10300 5976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical_SMD" H 10250 5450 50  0001 C CNN
-F 3 "" H 10250 5450 50  0001 C CNN
-F 4 "LCSC" H 10250 5450 50  0001 C CNN "Distributor"
-F 5 "BOOMELE(Boom Precision Elec)" H 10250 5450 50  0001 C CNN "Manufacturer"
-F 6 "SMD" H 10250 5450 50  0001 C CNN "Notes"
-F 7 "https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C88175_C88175.html" H 10250 5450 50  0001 C CNN "Weblink"
-F 8 "C88175" H 10250 5450 50  0001 C CNN "DistOrderNr"
-F 9 "C88175" H 10250 5450 50  0001 C CNN "ManPartNr"
-F 10 "0.036" H 10250 5450 50  0001 C CNN "PriceEUR"
-F 11 "100" H 10250 5450 50  0001 C CNN "PriceForQty"
-	1    10250 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 5350 10050 5350
 Wire Wire Line
@@ -780,72 +306,17 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR0115
 U 1 1 5FAAD34F
-P 9850 6000
-F 0 "#PWR0115" H 9850 5850 50  0001 C CNN
-F 1 "+3V3" H 9865 6173 50  0000 C CNN
-F 2 "" H 9850 6000 50  0001 C CNN
-F 3 "" H 9850 6000 50  0001 C CNN
-	1    9850 6000
-	-1   0    0    1   
+P 9850 4950
+F 0 "#PWR0115" H 9850 4800 50  0001 C CNN
+F 1 "+3V3" H 9865 5123 50  0000 C CNN
+F 2 "" H 9850 4950 50  0001 C CNN
+F 3 "" H 9850 4950 50  0001 C CNN
+	1    9850 4950
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9850 6000 9850 5850
 Connection ~ 9850 5850
-$Comp
-L Device:LED_Dual_AACC D?
-U 1 1 5FADBE3A
-P 8700 4200
-AR Path="/5F87EA32/5F813BE3/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813BE3/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813C65/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813CCB/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813D49/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813D9D/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813DD9/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813E3D/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813E87/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813C65/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813CCB/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813D49/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813D9D/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813DD9/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813E3D/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813E87/5FADBE3A" Ref="D?"  Part="1" 
-AR Path="/5FADBE3A" Ref="D101"  Part="1" 
-F 0 "D101" V 8654 3990 50  0000 R CNN
-F 1 "red/green" V 8745 3990 50  0000 R CNN
-F 2 "htl_smd:LED_LiteOn_LTST-C195KGJRKT" H 8730 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 8730 4200 50  0001 C CNN
-F 4 "LiteOn" H 8700 4200 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C195KGJRKT" H 8700 4200 50  0001 C CNN "ManPartNr"
-F 6 "LCSC" H 8700 4200 50  0001 C CNN "Distributor"
-F 7 "C125104" H 8700 4200 50  0001 C CNN "DistOrderNr"
-F 8 "0.023" H 8700 4200 50  0001 C CNN "PriceEUR"
-F 9 "1000" H 8700 4200 50  0001 C CNN "PriceForQty"
-F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 8700 4200 50  0001 C CNN "Weblink"
-F 11 "Dual LED" H 8700 4200 50  0001 C CNN "Notes"
-	1    8700 4200
-	1    0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R119
-U 1 1 5FAEF795
-P 8200 4300
-F 0 "R119" H 8270 4346 50  0000 L CNN
-F 1 "4k7" H 8270 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 4300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf" H 8200 4300 50  0001 C CNN
-F 4 "C103662" H 8200 4300 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 8200 4300 50  0001 C CNN "Distributor"
-F 6 "RTT03472JTP" H 8200 4300 50  0001 C CNN "ManPartNr"
-F 7 "RALEC" H 8200 4300 50  0001 C CNN "Manufacturer"
-F 8 "4.7kΩ ±5% 0.1W ±100ppm/℃" H 8200 4300 50  0001 C CNN "Notes"
-F 9 "0.000527" H 8200 4300 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 8200 4300 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html" H 8200 4300 50  0001 C CNN "Weblink"
-	1    8200 4300
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5FB01465
@@ -864,61 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 4300 9550 4300
 $Comp
-L Device:LED_Dual_AACC D?
-U 1 1 5FB4C524
-P 10200 4200
-AR Path="/5F87EA32/5F813BE3/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813BE3/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813C65/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813CCB/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813D49/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813D9D/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813DD9/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813E3D/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F80F0BB/5F813E87/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813C65/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813CCB/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813D49/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813D9D/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813DD9/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813E3D/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5F87EA32/5F813E87/5FB4C524" Ref="D?"  Part="1" 
-AR Path="/5FB4C524" Ref="D102"  Part="1" 
-F 0 "D102" V 10154 3990 50  0000 R CNN
-F 1 "red/green" V 10245 3990 50  0000 R CNN
-F 2 "htl_smd:LED_LiteOn_LTST-C195KGJRKT" H 10230 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 10230 4200 50  0001 C CNN
-F 4 "LiteOn" H 10200 4200 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C195KGJRKT" H 10200 4200 50  0001 C CNN "ManPartNr"
-F 6 "LCSC" H 10200 4200 50  0001 C CNN "Distributor"
-F 7 "C125104" H 10200 4200 50  0001 C CNN "DistOrderNr"
-F 8 "0.023" H 10200 4200 50  0001 C CNN "PriceEUR"
-F 9 "1000" H 10200 4200 50  0001 C CNN "PriceForQty"
-F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 10200 4200 50  0001 C CNN "Weblink"
-F 11 "Dual LED" H 10200 4200 50  0001 C CNN "Notes"
-	1    10200 4200
-	1    0    0    1   
-$EndComp
-$Comp
-L htl_passives:R_sig R120
-U 1 1 5FB4C532
-P 9700 4300
-F 0 "R120" H 9770 4346 50  0000 L CNN
-F 1 "1k" H 9770 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9630 4300 50  0001 C CNN
-F 3 "" H 9700 4300 50  0001 C CNN
-F 4 "C103209 " H 9700 4300 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9700 4300 50  0001 C CNN "Distributor"
-F 6 "RTT03102JTP" H 9700 4300 50  0001 C CNN "ManPartNr"
-F 7 "RALEC" H 9700 4300 50  0001 C CNN "Manufacturer"
-F 8 "1kΩ ±5% 0.1W ±100ppm/℃" H 9700 4300 50  0001 C CNN "Notes"
-F 9 "0.000556" H 9700 4300 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 9700 4300 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-102-5_C103209.html" H 9700 4300 50  0001 C CNN "Weblink"
-	1    9700 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5FB4C538
 P 10500 4300
@@ -936,63 +352,21 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0113
 U 1 1 5FB55887
-P 9850 4950
-F 0 "#PWR0113" H 9850 4800 50  0001 C CNN
-F 1 "+5V" H 9865 5123 50  0000 C CNN
-F 2 "" H 9850 4950 50  0001 C CNN
-F 3 "" H 9850 4950 50  0001 C CNN
-	1    9850 4950
-	1    0    0    -1  
+P 9850 6000
+F 0 "#PWR0113" H 9850 5850 50  0001 C CNN
+F 1 "+5V" H 9865 6173 50  0000 C CNN
+F 2 "" H 9850 6000 50  0001 C CNN
+F 3 "" H 9850 6000 50  0001 C CNN
+	1    9850 6000
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9850 4950 9850 5050
 Connection ~ 9850 5050
-$Comp
-L Regulator_Linear:AMS1117-3.3 U101
-U 1 1 5FB73816
-P 8800 5450
-F 0 "U101" H 8800 5692 50  0000 C CNN
-F 1 "AMS1117-3.3" H 8800 5601 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8800 5650 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8900 5200 50  0001 C CNN
-F 4 "UMW Youtai Semiconductor" H 8800 5450 50  0001 C CNN "Manufacturer"
-F 5 " AMS1117-3.3 " H 8800 5450 50  0001 C CNN "ManPartNr"
-F 6 "LCSC" H 8800 5450 50  0001 C CNN "Distributor"
-F 7 "C347222" H 8800 5450 50  0001 C CNN "DistOrderNr"
-F 8 "0.023029" H 8800 5450 50  0001 C CNN "PriceEUR"
-F 9 "100" H 8800 5450 50  0001 C CNN "PriceForQty"
-F 10 "https://lcsc.com/products/Dropout-Regulators-LDO_387.html?q=ams1117-3.3" H 8800 5450 50  0001 C CNN "Weblink"
-F 11 "LDO, 3.3V" H 8800 5450 50  0001 C CNN "Notes"
-	1    8800 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 5450 9200 5450
 Wire Wire Line
-	9500 5450 9500 5650
-Wire Wire Line
-	9500 5650 9850 5650
-Wire Wire Line
 	7700 5450 7950 5450
-$Comp
-L Device:C C101
-U 1 1 5FB89477
-P 8250 5800
-F 0 "C101" H 8365 5846 50  0000 L CNN
-F 1 "10u/16V/X5R" H 8365 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 5650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf" H 8250 5800 50  0001 C CNN
-F 4 "C1713" H 8250 5800 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 8250 5800 50  0001 C CNN "Distributor"
-F 6 "CL21A106KOQNNNE" H 8250 5800 50  0001 C CNN "ManPartNr"
-F 7 "Samsung" H 8250 5800 50  0001 C CNN "Manufacturer"
-F 8 "10uF ±10% 16V X5R" H 8250 5800 50  0001 C CNN "Notes"
-F 9 "0.011386" H 8250 5800 50  0001 C CNN "PriceEUR"
-F 10 "200" H 8250 5800 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html" H 8250 5800 50  0001 C CNN "Weblink"
-	1    8250 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5FB89955
@@ -1024,25 +398,6 @@ F 3 "" H 8250 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8250 6050 8250 5950
-$Comp
-L Device:C C102
-U 1 1 5FBA65F0
-P 9200 5800
-F 0 "C102" H 9315 5846 50  0000 L CNN
-F 1 "10u/16V/X5R" H 9315 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9238 5650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf" H 9200 5800 50  0001 C CNN
-F 4 "C1713" H 9200 5800 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9200 5800 50  0001 C CNN "Distributor"
-F 6 "CL21A106KOQNNNE" H 9200 5800 50  0001 C CNN "ManPartNr"
-F 7 "Samsung" H 9200 5800 50  0001 C CNN "Manufacturer"
-F 8 "10uF ±10% 16V X5R" H 9200 5800 50  0001 C CNN "Notes"
-F 9 "0.011386" H 9200 5800 50  0001 C CNN "PriceEUR"
-F 10 "200" H 9200 5800 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html" H 9200 5800 50  0001 C CNN "Weblink"
-	1    9200 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9200 5650 9200 5450
 Connection ~ 9200 5450
@@ -1077,25 +432,6 @@ F 3 "" H 7700 5350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 5350 7700 5450
-$Comp
-L Device:R R117
-U 1 1 5F7F1DA2
-P 6300 6200
-F 0 "R117" V 6550 6200 50  0000 C CNN
-F 1 "0R" V 6450 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 6200 50  0001 C CNN
-F 3 "" H 6300 6200 50  0001 C CNN
-F 4 "" H 6300 6200 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6300 6200 50  0001 C CNN "Distributor"
-F 6 "" H 6300 6200 50  0001 C CNN "ManPartNr"
-F 7 "" H 6300 6200 50  0001 C CNN "Manufacturer"
-F 8 "" H 6300 6200 50  0001 C CNN "Notes"
-F 9 "" H 6300 6200 50  0001 C CNN "PriceEUR"
-F 10 "" H 6300 6200 50  0001 C CNN "PriceForQty"
-F 11 "" H 6300 6200 50  0001 C CNN "Weblink"
-	1    6300 6200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6450 6200 6550 6200
 Wire Wire Line
@@ -1111,25 +447,6 @@ Wire Wire Line
 Connection ~ 6550 6200
 Wire Wire Line
 	6550 6200 6850 6200
-$Comp
-L Device:R R118
-U 1 1 5F7FE1BB
-P 6300 6350
-F 0 "R118" V 6185 6350 50  0000 C CNN
-F 1 "0R" V 6094 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 6350 50  0001 C CNN
-F 3 "" H 6300 6350 50  0001 C CNN
-F 4 "" H 6300 6350 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 6300 6350 50  0001 C CNN "Distributor"
-F 6 "" H 6300 6350 50  0001 C CNN "ManPartNr"
-F 7 "" H 6300 6350 50  0001 C CNN "Manufacturer"
-F 8 "" H 6300 6350 50  0001 C CNN "Notes"
-F 9 "" H 6300 6350 50  0001 C CNN "PriceEUR"
-F 10 "" H 6300 6350 50  0001 C CNN "PriceForQty"
-F 11 "" H 6300 6350 50  0001 C CNN "Weblink"
-	1    6300 6350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6450 6350 6550 6350
 $Comp
@@ -1161,8 +478,7 @@ rt
 Text Notes 10100 4050 1    50   ~ 0
 rt
 Wire Wire Line
-	9500 4300 9500 5450
-Connection ~ 9500 5450
+	9500 4300 9500 5350
 Wire Wire Line
 	8050 4300 7950 4300
 Wire Wire Line
@@ -1173,28 +489,9 @@ Wire Wire Line
 Text Notes 2750 4950 1    118  ~ 24
 Verdrahtung\nwie Nullmodem
 Wire Wire Line
-	2700 2750 4400 2750
+	2700 2750 4050 2750
 Wire Wire Line
 	2700 2550 3800 2550
-$Comp
-L htl_connectors:RS232_DB9_Female J101
-U 1 1 5DE55B73
-P 1750 2450
-F 0 "J101" H 1668 3142 50  0000 C CNN
-F 1 "DB9_Female" H 1668 3051 50  0000 C CNN
-F 2 "htl_connectors:DSUB-9_Female_EdgeMount_P2.77mm" H 1750 2450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811081030_CONNFLY-Elec-DS1033-09FUNSiSS-CT_C75748.pdf" H 1750 2450 50  0001 C CNN
-F 4 "LCSC" H 1750 2450 50  0001 C CNN "Distributor"
-F 5 " CONNFLY Elec" H 1750 2450 50  0001 C CNN "Manufacturer"
-F 6 "RS232 weiblich" H 1750 2450 50  0001 C CNN "Notes"
-F 7 "0.063911" H 1750 2450 50  0001 C CNN "PriceEUR"
-F 8 "150" H 1750 2450 50  0001 C CNN "PriceForQty"
-F 9 "https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Female-blue-Welded-wire-type-Tin-plating-Without-screws_C75748.html" H 1750 2450 50  0001 C CNN "Weblink"
-F 10 "C75748" H 1750 2450 50  0001 C CNN "DistOrderNr"
-F 11 "DS1033-09FUNSiSS-CT" H 1750 2450 50  0001 C CNN "ManPartNr"
-	1    1750 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 2350 3600 2350
 Wire Wire Line
@@ -1600,19 +897,6 @@ Wire Wire Line
 Connection ~ 3900 3500
 Wire Wire Line
 	3900 3500 3900 4050
-$Comp
-L power:GND #PWR0102
-U 1 1 5FCFB043
-P 4050 3600
-F 0 "#PWR0102" H 4050 3350 50  0001 C CNN
-F 1 "GND" H 4055 3427 50  0000 C CNN
-F 2 "" H 4050 3600 50  0001 C CNN
-F 3 "" H 4050 3600 50  0001 C CNN
-	1    4050 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 3600 4050 3550
 Wire Wire Line
 	4050 3550 4200 3550
 Wire Wire Line
@@ -1631,25 +915,6 @@ Wire Wire Line
 	5900 2450 7350 2450
 Wire Wire Line
 	6100 2650 7350 2650
-$Comp
-L htl_passives:R_sig R101
-U 1 1 5DE6DF29
-P 3050 5150
-F 0 "R101" V 3050 5150 50  0000 C CNN
-F 1 "100R" V 3166 5150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3050 5150 50  0001 C CNN
-F 4 "C25201" H 3050 5150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 3050 5150 50  0001 C CNN "Distributor"
-F 6 "0603WAJ0101T5E" H 3050 5150 50  0001 C CNN "ManPartNr"
-F 7 "UNI-ROYAL" H 3050 5150 50  0001 C CNN "Manufacturer"
-F 8 "100R, 5%, 100mW" H 3050 5150 50  0001 C CNN "Notes"
-F 9 "0.000563" H 3050 5150 50  0001 C CNN "PriceEUR"
-F 10 "1000" H 3050 5150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3050 5150 50  0001 C CNN "Weblink"
-	1    3050 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5FDA74FB
@@ -1678,117 +943,22 @@ Connection ~ 2750 2850
 Wire Wire Line
 	2750 2850 2900 2850
 $Comp
-L htl_virtual:Item Item101
-U 1 1 5F8F2652
-P 9950 850
-F 0 "Item101" H 10080 896 50  0000 L CNN
-F 1 "Jumper" H 10080 805 50  0000 L CNN
-F 2 "~" V 9880 850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 850 50  0001 C CNN
-F 4 "C5305" H 9950 850 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 850 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 850 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 850 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 850 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 850 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 850 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 850 50  0001 C CNN "Weblink"
-	1    9950 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_virtual:Item Item102
-U 1 1 5F8F3710
-P 9950 1150
-F 0 "Item102" H 10080 1196 50  0000 L CNN
-F 1 "Jumper" H 10080 1105 50  0000 L CNN
-F 2 "~" V 9880 1150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1150 50  0001 C CNN
-F 4 "C5305" H 9950 1150 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 1150 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 1150 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 1150 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 1150 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 1150 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 1150 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1150 50  0001 C CNN "Weblink"
-	1    9950 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_virtual:Item Item103
-U 1 1 5F8F38FE
-P 9950 1450
-F 0 "Item103" H 10080 1496 50  0000 L CNN
-F 1 "Jumper" H 10080 1405 50  0000 L CNN
-F 2 "~" V 9880 1450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1450 50  0001 C CNN
-F 4 "C5305" H 9950 1450 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 1450 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 1450 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 1450 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 1450 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 1450 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 1450 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1450 50  0001 C CNN "Weblink"
-	1    9950 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_virtual:Item Item104
-U 1 1 5F8F3DC2
-P 9950 1750
-F 0 "Item104" H 10080 1796 50  0000 L CNN
-F 1 "Jumper" H 10080 1705 50  0000 L CNN
-F 2 "~" V 9880 1750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1750 50  0001 C CNN
-F 4 "C5305" H 9950 1750 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 1750 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 1750 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 1750 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 1750 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 1750 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 1750 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1750 50  0001 C CNN "Weblink"
-	1    9950 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_virtual:Item Item105
-U 1 1 5F8F40AF
-P 9950 2050
-F 0 "Item105" H 10080 2096 50  0000 L CNN
-F 1 "Jumper" H 10080 2005 50  0000 L CNN
-F 2 "~" V 9880 2050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2050 50  0001 C CNN
-F 4 "C5305" H 9950 2050 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 2050 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 2050 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 2050 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 2050 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 2050 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 2050 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2050 50  0001 C CNN "Weblink"
-	1    9950 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L htl_virtual:Item Item106
-U 1 1 5F8F4440
-P 9950 2350
-F 0 "Item106" H 10080 2396 50  0000 L CNN
-F 1 "Jumper" H 10080 2305 50  0000 L CNN
-F 2 "~" V 9880 2350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2350 50  0001 C CNN
-F 4 "C5305" H 9950 2350 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 2350 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 2350 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 2350 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 2350 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 2350 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 2350 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2350 50  0001 C CNN "Weblink"
-	1    9950 2350
+L htl_virtual:Item Item108
+U 1 1 5F8F4A09
+P 9950 2950
+F 0 "Item108" H 10080 2996 50  0000 L CNN
+F 1 "Jumper" H 10080 2905 50  0000 L CNN
+F 2 "~" V 9880 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2950 50  0001 C CNN
+F 4 "C5305" H 9950 2950 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 2950 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 2950 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 2950 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 2950 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 2950 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 2950 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2950 50  0001 C CNN "Weblink"
+	1    9950 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1811,22 +981,845 @@ F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec
 	1    0    0    -1  
 $EndComp
 $Comp
-L htl_virtual:Item Item108
-U 1 1 5F8F4A09
-P 9950 2950
-F 0 "Item108" H 10080 2996 50  0000 L CNN
-F 1 "Jumper" H 10080 2905 50  0000 L CNN
-F 2 "~" V 9880 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2950 50  0001 C CNN
-F 4 "C5305" H 9950 2950 50  0001 C CNN "DistOrderNr"
-F 5 "LCSC" H 9950 2950 50  0001 C CNN "Distributor"
-F 6 "C5305" H 9950 2950 50  0001 C CNN "ManPartNr"
-F 7 "BOOMELE(Boom Precision Elec)" H 9950 2950 50  0001 C CNN "Manufacturer"
-F 8 "Jumper, 2.54mm" H 9950 2950 50  0001 C CNN "Notes"
-F 9 "0.00319" H 9950 2950 50  0001 C CNN "PriceEUR"
-F 10 "500" H 9950 2950 50  0001 C CNN "PriceForQty"
-F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2950 50  0001 C CNN "Weblink"
-	1    9950 2950
+L htl_virtual:Item Item106
+U 1 1 5F8F4440
+P 9950 2350
+F 0 "Item106" H 10080 2396 50  0000 L CNN
+F 1 "Jumper" H 10080 2305 50  0000 L CNN
+F 2 "~" V 9880 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2350 50  0001 C CNN
+F 4 "C5305" H 9950 2350 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 2350 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 2350 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 2350 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 2350 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 2350 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 2350 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2350 50  0001 C CNN "Weblink"
+	1    9950 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L htl_virtual:Item Item105
+U 1 1 5F8F40AF
+P 9950 2050
+F 0 "Item105" H 10080 2096 50  0000 L CNN
+F 1 "Jumper" H 10080 2005 50  0000 L CNN
+F 2 "~" V 9880 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 2050 50  0001 C CNN
+F 4 "C5305" H 9950 2050 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 2050 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 2050 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 2050 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 2050 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 2050 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 2050 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 2050 50  0001 C CNN "Weblink"
+	1    9950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_virtual:Item Item104
+U 1 1 5F8F3DC2
+P 9950 1750
+F 0 "Item104" H 10080 1796 50  0000 L CNN
+F 1 "Jumper" H 10080 1705 50  0000 L CNN
+F 2 "~" V 9880 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1750 50  0001 C CNN
+F 4 "C5305" H 9950 1750 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 1750 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 1750 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 1750 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 1750 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 1750 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 1750 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1750 50  0001 C CNN "Weblink"
+	1    9950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_virtual:Item Item103
+U 1 1 5F8F38FE
+P 9950 1450
+F 0 "Item103" H 10080 1496 50  0000 L CNN
+F 1 "Jumper" H 10080 1405 50  0000 L CNN
+F 2 "~" V 9880 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1450 50  0001 C CNN
+F 4 "C5305" H 9950 1450 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 1450 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 1450 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 1450 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 1450 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 1450 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 1450 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1450 50  0001 C CNN "Weblink"
+	1    9950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_virtual:Item Item102
+U 1 1 5F8F3710
+P 9950 1150
+F 0 "Item102" H 10080 1196 50  0000 L CNN
+F 1 "Jumper" H 10080 1105 50  0000 L CNN
+F 2 "~" V 9880 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 1150 50  0001 C CNN
+F 4 "C5305" H 9950 1150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 1150 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 1150 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 1150 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 1150 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 1150 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 1150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 1150 50  0001 C CNN "Weblink"
+	1    9950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_virtual:Item Item101
+U 1 1 5F8F2652
+P 9950 850
+F 0 "Item101" H 10080 896 50  0000 L CNN
+F 1 "Jumper" H 10080 805 50  0000 L CNN
+F 2 "~" V 9880 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811132212_BOOMELE-Boom-Precision-Elec-C5305_C5305.pdf" H 9950 850 50  0001 C CNN
+F 4 "C5305" H 9950 850 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9950 850 50  0001 C CNN "Distributor"
+F 6 "C5305" H 9950 850 50  0001 C CNN "ManPartNr"
+F 7 "BOOMELE(Boom Precision Elec)" H 9950 850 50  0001 C CNN "Manufacturer"
+F 8 "Jumper, 2.54mm" H 9950 850 50  0001 C CNN "Notes"
+F 9 "0.00319" H 9950 850 50  0001 C CNN "PriceEUR"
+F 10 "500" H 9950 850 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Shunts-Jumpers_BOOMELE-Boom-Precision-Elec-C5305_C5305.html" H 9950 850 50  0001 C CNN "Weblink"
+	1    9950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R101
+U 1 1 5DE6DF29
+P 3050 5150
+F 0 "R101" V 3050 5150 50  0000 C CNN
+F 1 "100R" V 3166 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3050 5150 50  0001 C CNN
+F 4 "C25201" H 3050 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3050 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3050 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3050 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3050 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3050 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3050 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3050 5150 50  0001 C CNN "Weblink"
+	1    3050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_connectors:RS232_DB9_Female J101
+U 1 1 5DE55B73
+P 1750 2450
+F 0 "J101" H 1668 3142 50  0000 C CNN
+F 1 "DB9_Female" H 1668 3051 50  0000 C CNN
+F 2 "htl_connectors:DSUB-9_Female_EdgeMount_P2.77mm" H 1750 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081030_CONNFLY-Elec-DS1033-09FUNSiSS-CT_C75748.pdf" H 1750 2450 50  0001 C CNN
+F 4 "LCSC" H 1750 2450 50  0001 C CNN "Distributor"
+F 5 " CONNFLY Elec" H 1750 2450 50  0001 C CNN "Manufacturer"
+F 6 "RS232 weiblich" H 1750 2450 50  0001 C CNN "Notes"
+F 7 "0.063911" H 1750 2450 50  0001 C CNN "PriceEUR"
+F 8 "150" H 1750 2450 50  0001 C CNN "PriceForQty"
+F 9 "https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Female-blue-Welded-wire-type-Tin-plating-Without-screws_C75748.html" H 1750 2450 50  0001 C CNN "Weblink"
+F 10 "C75748" H 1750 2450 50  0001 C CNN "DistOrderNr"
+F 11 "DS1033-09FUNSiSS-CT" H 1750 2450 50  0001 C CNN "ManPartNr"
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R118
+U 1 1 5F7FE1BB
+P 6300 6350
+F 0 "R118" V 6185 6350 50  0000 C CNN
+F 1 "0R" V 6094 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 6350 50  0001 C CNN
+F 3 "" H 6300 6350 50  0001 C CNN
+F 4 "" H 6300 6350 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6300 6350 50  0001 C CNN "Distributor"
+F 6 "" H 6300 6350 50  0001 C CNN "ManPartNr"
+F 7 "" H 6300 6350 50  0001 C CNN "Manufacturer"
+F 8 "" H 6300 6350 50  0001 C CNN "Notes"
+F 9 "" H 6300 6350 50  0001 C CNN "PriceEUR"
+F 10 "" H 6300 6350 50  0001 C CNN "PriceForQty"
+F 11 "" H 6300 6350 50  0001 C CNN "Weblink"
+	1    6300 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R117
+U 1 1 5F7F1DA2
+P 6300 6200
+F 0 "R117" V 6550 6200 50  0000 C CNN
+F 1 "0R" V 6450 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 6200 50  0001 C CNN
+F 3 "" H 6300 6200 50  0001 C CNN
+F 4 "" H 6300 6200 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6300 6200 50  0001 C CNN "Distributor"
+F 6 "" H 6300 6200 50  0001 C CNN "ManPartNr"
+F 7 "" H 6300 6200 50  0001 C CNN "Manufacturer"
+F 8 "" H 6300 6200 50  0001 C CNN "Notes"
+F 9 "" H 6300 6200 50  0001 C CNN "PriceEUR"
+F 10 "" H 6300 6200 50  0001 C CNN "PriceForQty"
+F 11 "" H 6300 6200 50  0001 C CNN "Weblink"
+	1    6300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C102
+U 1 1 5FBA65F0
+P 9200 5800
+F 0 "C102" H 9315 5846 50  0000 L CNN
+F 1 "10u/16V/X5R" H 9315 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9238 5650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf" H 9200 5800 50  0001 C CNN
+F 4 "C1713" H 9200 5800 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9200 5800 50  0001 C CNN "Distributor"
+F 6 "CL21A106KOQNNNE" H 9200 5800 50  0001 C CNN "ManPartNr"
+F 7 "Samsung" H 9200 5800 50  0001 C CNN "Manufacturer"
+F 8 "10uF ±10% 16V X5R" H 9200 5800 50  0001 C CNN "Notes"
+F 9 "0.011386" H 9200 5800 50  0001 C CNN "PriceEUR"
+F 10 "200" H 9200 5800 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html" H 9200 5800 50  0001 C CNN "Weblink"
+	1    9200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 5FB89477
+P 8250 5800
+F 0 "C101" H 8365 5846 50  0000 L CNN
+F 1 "10u/16V/X5R" H 8365 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 5650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151151_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf" H 8250 5800 50  0001 C CNN
+F 4 "C1713" H 8250 5800 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 8250 5800 50  0001 C CNN "Distributor"
+F 6 "CL21A106KOQNNNE" H 8250 5800 50  0001 C CNN "ManPartNr"
+F 7 "Samsung" H 8250 5800 50  0001 C CNN "Manufacturer"
+F 8 "10uF ±10% 16V X5R" H 8250 5800 50  0001 C CNN "Notes"
+F 9 "0.011386" H 8250 5800 50  0001 C CNN "PriceEUR"
+F 10 "200" H 8250 5800 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html" H 8250 5800 50  0001 C CNN "Weblink"
+	1    8250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U101
+U 1 1 5FB73816
+P 8800 5450
+F 0 "U101" H 8800 5692 50  0000 C CNN
+F 1 "AMS1117-3.3" H 8800 5601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8800 5650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8900 5200 50  0001 C CNN
+F 4 "UMW Youtai Semiconductor" H 8800 5450 50  0001 C CNN "Manufacturer"
+F 5 " AMS1117-3.3 " H 8800 5450 50  0001 C CNN "ManPartNr"
+F 6 "LCSC" H 8800 5450 50  0001 C CNN "Distributor"
+F 7 "C347222" H 8800 5450 50  0001 C CNN "DistOrderNr"
+F 8 "0.023029" H 8800 5450 50  0001 C CNN "PriceEUR"
+F 9 "100" H 8800 5450 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/products/Dropout-Regulators-LDO_387.html?q=ams1117-3.3" H 8800 5450 50  0001 C CNN "Weblink"
+F 11 "LDO, 3.3V" H 8800 5450 50  0001 C CNN "Notes"
+	1    8800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R120
+U 1 1 5FB4C532
+P 9700 4300
+F 0 "R120" H 9770 4346 50  0000 L CNN
+F 1 "1k" H 9770 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9630 4300 50  0001 C CNN
+F 3 "" H 9700 4300 50  0001 C CNN
+F 4 "C103209 " H 9700 4300 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 9700 4300 50  0001 C CNN "Distributor"
+F 6 "RTT03102JTP" H 9700 4300 50  0001 C CNN "ManPartNr"
+F 7 "RALEC" H 9700 4300 50  0001 C CNN "Manufacturer"
+F 8 "1kΩ ±5% 0.1W ±100ppm/℃" H 9700 4300 50  0001 C CNN "Notes"
+F 9 "0.000556" H 9700 4300 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 9700 4300 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-102-5_C103209.html" H 9700 4300 50  0001 C CNN "Weblink"
+	1    9700 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Dual_AACC D?
+U 1 1 5FB4C524
+P 10200 4200
+AR Path="/5F87EA32/5F813BE3/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813BE3/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813C65/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813CCB/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813D49/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813D9D/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813DD9/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813E3D/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813E87/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813C65/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813CCB/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813D49/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813D9D/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813DD9/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813E3D/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813E87/5FB4C524" Ref="D?"  Part="1" 
+AR Path="/5FB4C524" Ref="D102"  Part="1" 
+F 0 "D102" V 10154 3990 50  0000 R CNN
+F 1 "red/green" V 10245 3990 50  0000 R CNN
+F 2 "htl_smd:LED_LiteOn_LTST-C195KGJRKT" H 10230 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 10230 4200 50  0001 C CNN
+F 4 "LiteOn" H 10200 4200 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C195KGJRKT" H 10200 4200 50  0001 C CNN "ManPartNr"
+F 6 "LCSC" H 10200 4200 50  0001 C CNN "Distributor"
+F 7 "C125104" H 10200 4200 50  0001 C CNN "DistOrderNr"
+F 8 "0.023" H 10200 4200 50  0001 C CNN "PriceEUR"
+F 9 "1000" H 10200 4200 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 10200 4200 50  0001 C CNN "Weblink"
+F 11 "Dual LED" H 10200 4200 50  0001 C CNN "Notes"
+	1    10200 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R119
+U 1 1 5FAEF795
+P 8200 4300
+F 0 "R119" H 8270 4346 50  0000 L CNN
+F 1 "4k7" H 8270 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809261316_RALEC-RTT03472JTP_C103662.pdf" H 8200 4300 50  0001 C CNN
+F 4 "C103662" H 8200 4300 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 8200 4300 50  0001 C CNN "Distributor"
+F 6 "RTT03472JTP" H 8200 4300 50  0001 C CNN "ManPartNr"
+F 7 "RALEC" H 8200 4300 50  0001 C CNN "Manufacturer"
+F 8 "4.7kΩ ±5% 0.1W ±100ppm/℃" H 8200 4300 50  0001 C CNN "Notes"
+F 9 "0.000527" H 8200 4300 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 8200 4300 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472JTP_C103662.html" H 8200 4300 50  0001 C CNN "Weblink"
+	1    8200 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Dual_AACC D?
+U 1 1 5FADBE3A
+P 8700 4200
+AR Path="/5F87EA32/5F813BE3/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813BE3/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813C65/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813CCB/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813D49/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813D9D/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813DD9/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813E3D/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F80F0BB/5F813E87/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813C65/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813CCB/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813D49/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813D9D/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813DD9/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813E3D/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5F87EA32/5F813E87/5FADBE3A" Ref="D?"  Part="1" 
+AR Path="/5FADBE3A" Ref="D101"  Part="1" 
+F 0 "D101" V 8654 3990 50  0000 R CNN
+F 1 "red/green" V 8745 3990 50  0000 R CNN
+F 2 "htl_smd:LED_LiteOn_LTST-C195KGJRKT" H 8730 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811100910_Lite-On-LTST-C195KGJRKT_C125104.pdf" H 8730 4200 50  0001 C CNN
+F 4 "LiteOn" H 8700 4200 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C195KGJRKT" H 8700 4200 50  0001 C CNN "ManPartNr"
+F 6 "LCSC" H 8700 4200 50  0001 C CNN "Distributor"
+F 7 "C125104" H 8700 4200 50  0001 C CNN "DistOrderNr"
+F 8 "0.023" H 8700 4200 50  0001 C CNN "PriceEUR"
+F 9 "1000" H 8700 4200 50  0001 C CNN "PriceForQty"
+F 10 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-C195KGJRKT_C125104.html" H 8700 4200 50  0001 C CNN "Weblink"
+F 11 "Dual LED" H 8700 4200 50  0001 C CNN "Notes"
+	1    8700 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J104
+U 1 1 5FA03438
+P 10250 5450
+F 0 "J104" H 10300 6067 50  0000 C CNN
+F 1 "Stiftleiste 2x9" H 10300 5976 50  0000 C CNN
+F 2 "htl_connectors:PinHeader_2x09_P2.54mm_Vertical_SMD_LCSC_C88175" H 10250 5450 50  0001 C CNN
+F 3 "" H 10250 5450 50  0001 C CNN
+F 4 "LCSC" H 10250 5450 50  0001 C CNN "Distributor"
+F 5 "BOOMELE(Boom Precision Elec)" H 10250 5450 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 10250 5450 50  0001 C CNN "Notes"
+F 7 "https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C88175_C88175.html" H 10250 5450 50  0001 C CNN "Weblink"
+F 8 "C88175" H 10250 5450 50  0001 C CNN "DistOrderNr"
+F 9 "C88175" H 10250 5450 50  0001 C CNN "ManPartNr"
+F 10 "0.036" H 10250 5450 50  0001 C CNN "PriceEUR"
+F 11 "100" H 10250 5450 50  0001 C CNN "PriceForQty"
+	1    10250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 5F8EBC49
+P 4000 4350
+AR Path="/5F8070C3/5F8EBC49" Ref="SW?"  Part="1" 
+AR Path="/5F7F8851/5F8EBC49" Ref="SW?"  Part="1" 
+AR Path="/5F8AD0E2/5F8EBC49" Ref="SW?"  Part="1" 
+AR Path="/5F8EBC49" Ref="SW101"  Part="1" 
+F 0 "SW101" V 4046 3920 50  0000 R CNN
+F 1 "DIP-Switch 8" V 3955 3920 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile" H 4000 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Made-in-China-HAD-08HWA-R_C4682.pdf" H 4000 4350 50  0001 C CNN
+F 4 "C4682" H 4000 4350 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4000 4350 50  0001 C CNN "Distributor"
+F 6 "HAD-08HWA-R" H 4000 4350 50  0001 C CNN "ManPartNr"
+F 7 "Cixi Tonver Elec " H 4000 4350 50  0001 C CNN "Manufacturer"
+F 8 "SMD DIP-Switch" H 4000 4350 50  0001 C CNN "Notes"
+F 9 "0.262623" H 4000 4350 50  0001 C CNN "PriceEUR"
+F 10 "100" H 4000 4350 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/DIP-Switches_Cixi-Tonver-Elec-HAD-08HWA-R_C4682.html" H 4000 4350 50  0001 C CNN "Weblink"
+	1    4000 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J102
+U 1 1 5DEB8D01
+P 4600 2450
+F 0 "J102" H 4650 3067 50  0000 C CNN
+F 1 "Stiftleiste 2x9" H 4650 2976 50  0000 C CNN
+F 2 "htl_connectors:PinHeader_2x09_P2.54mm_Vertical_SMD_LCSC_C88175" H 4600 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+F 4 "LCSC" H 4600 2450 50  0001 C CNN "Distributor"
+F 5 "BOOMELE(Boom Precision Elec)" H 4600 2450 50  0001 C CNN "Manufacturer"
+F 6 "SMD" H 4600 2450 50  0001 C CNN "Notes"
+F 7 "https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C88175_C88175.html" H 4600 2450 50  0001 C CNN "Weblink"
+F 8 "C88175" H 4600 2450 50  0001 C CNN "DistOrderNr"
+F 9 "C88175" H 4600 2450 50  0001 C CNN "ManPartNr"
+F 10 "0.036" H 4600 2450 50  0001 C CNN "PriceEUR"
+F 11 "100" H 4600 2450 50  0001 C CNN "PriceForQty"
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R108
+U 1 1 5F79FD9F
+P 3900 5150
+F 0 "R108" V 3900 5150 50  0000 C CNN
+F 1 "100R" V 4016 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3900 5150 50  0001 C CNN
+F 4 "C25201" H 3900 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3900 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3900 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3900 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3900 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3900 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3900 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3900 5150 50  0001 C CNN "Weblink"
+	1    3900 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R104
+U 1 1 5F79507A
+P 3350 5150
+F 0 "R104" V 3350 5150 50  0000 C CNN
+F 1 "100R" V 3466 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3350 5150 50  0001 C CNN
+F 4 "C25201" H 3350 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3350 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3350 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3350 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3350 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3350 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3350 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3350 5150 50  0001 C CNN "Weblink"
+	1    3350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R109
+U 1 1 5F758B8F
+P 5400 5150
+F 0 "R109" V 5400 5150 50  0000 C CNN
+F 1 "100R" V 5516 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5330 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5400 5150 50  0001 C CNN
+F 4 "C25201" H 5400 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5400 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 5400 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 5400 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 5400 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 5400 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5400 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5400 5150 50  0001 C CNN "Weblink"
+	1    5400 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R110
+U 1 1 5F758B89
+P 5500 5150
+F 0 "R110" V 5500 5150 50  0000 C CNN
+F 1 "100R" V 5616 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5500 5150 50  0001 C CNN
+F 4 "C25201" H 5500 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5500 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 5500 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 5500 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 5500 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 5500 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5500 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5500 5150 50  0001 C CNN "Weblink"
+	1    5500 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R111
+U 1 1 5F758B83
+P 5600 5150
+F 0 "R111" V 5600 5150 50  0000 C CNN
+F 1 "100R" V 5716 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5600 5150 50  0001 C CNN
+F 4 "C25201" H 5600 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5600 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 5600 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 5600 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 5600 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 5600 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5600 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5600 5150 50  0001 C CNN "Weblink"
+	1    5600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R105
+U 1 1 5F6DEE1A
+P 3600 5150
+F 0 "R105" V 3600 5150 50  0000 C CNN
+F 1 "100R" V 3716 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3600 5150 50  0001 C CNN
+F 4 "C25201" H 3600 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3600 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3600 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3600 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3600 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3600 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3600 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3600 5150 50  0001 C CNN "Weblink"
+	1    3600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R106
+U 1 1 5F6DEE14
+P 3700 5150
+F 0 "R106" V 3700 5150 50  0000 C CNN
+F 1 "100R" V 3816 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3700 5150 50  0001 C CNN
+F 4 "C25201" H 3700 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3700 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3700 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3700 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3700 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3700 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3700 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3700 5150 50  0001 C CNN "Weblink"
+	1    3700 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L htl_passives:R_sig R107
+U 1 1 5F6DEE0E
+P 3800 5150
+F 0 "R107" V 3800 5150 50  0000 C CNN
+F 1 "100R" V 3916 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3800 5150 50  0001 C CNN
+F 4 "C25201" H 3800 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3800 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3800 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3800 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3800 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3800 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3800 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3800 5150 50  0001 C CNN "Weblink"
+	1    3800 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP103
+U 1 1 5F630151
+P 5150 7550
+F 0 "TP103" H 5106 7598 50  0000 R CNN
+F 1 "SMD Testpoint" H 5106 7553 50  0001 R CNN
+F 2 "htl_smd:Keystone_5016" H 5350 7550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 5350 7550 50  0001 C CNN
+F 4 "C238129" H 5150 7550 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5150 7550 50  0001 C CNN "Distributor"
+F 6 "5016" H 5150 7550 50  0001 C CNN "ManPartNr"
+F 7 "Keystone" H 5150 7550 50  0001 C CNN "Manufacturer"
+F 8 "SMD Testöse" H 5150 7550 50  0001 C CNN "Notes"
+F 9 "0.084" H 5150 7550 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5150 7550 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 5150 7550 50  0001 C CNN "Weblink"
+	1    5150 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP102
+U 1 1 5F62C8A7
+P 4600 7550
+F 0 "TP102" H 4556 7598 50  0000 R CNN
+F 1 "SMD Testpoint" H 4556 7553 50  0001 R CNN
+F 2 "htl_smd:Keystone_5016" H 4800 7550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 4800 7550 50  0001 C CNN
+F 4 "C238129" H 4600 7550 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4600 7550 50  0001 C CNN "Distributor"
+F 6 "5016" H 4600 7550 50  0001 C CNN "ManPartNr"
+F 7 "Keystone" H 4600 7550 50  0001 C CNN "Manufacturer"
+F 8 "SMD Testöse" H 4600 7550 50  0001 C CNN "Notes"
+F 9 "0.084" H 4600 7550 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 4600 7550 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 4600 7550 50  0001 C CNN "Weblink"
+	1    4600 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5F62245D
+P 5750 7550
+F 0 "H104" H 5850 7596 50  0000 L CNN
+F 1 "MountingHole" H 5850 7505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 5750 7550 50  0001 C CNN
+F 3 "" H 5750 7550 50  0001 C CNN
+F 4 "NAP" H 5750 7550 50  0001 C CNN "Notes"
+F 5 "nap" H 5750 7550 50  0001 C CNN "DistOrderNr"
+	1    5750 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5F6221B7
+P 5750 7350
+F 0 "H103" H 5850 7396 50  0000 L CNN
+F 1 "MountingHole" H 5850 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 5750 7350 50  0001 C CNN
+F 3 "" H 5750 7350 50  0001 C CNN
+F 4 "NAP" H 5750 7350 50  0001 C CNN "Notes"
+F 5 "nap" H 5750 7350 50  0001 C CNN "DistOrderNr"
+	1    5750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5F621FC8
+P 5750 7150
+F 0 "H102" H 5850 7196 50  0000 L CNN
+F 1 "MountingHole" H 5850 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 5750 7150 50  0001 C CNN
+F 3 "" H 5750 7150 50  0001 C CNN
+F 4 "NAP" H 5750 7150 50  0001 C CNN "Notes"
+F 5 "nap" H 5750 7150 50  0001 C CNN "DistOrderNr"
+	1    5750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5F621748
+P 5750 6950
+F 0 "H101" H 5850 6996 50  0000 L CNN
+F 1 "MountingHole" H 5850 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 5750 6950 50  0001 C CNN
+F 3 "" H 5750 6950 50  0001 C CNN
+F 4 "NAP" H 5750 6950 50  0001 C CNN "Notes"
+F 5 "nap" H 5750 6950 50  0001 C CNN "DistOrderNr"
+	1    5750 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP101
+U 1 1 5DE76C88
+P 4050 7550
+F 0 "TP101" H 4006 7598 50  0000 R CNN
+F 1 "SMD Testpoint" H 4006 7553 50  0001 R CNN
+F 2 "htl_smd:Keystone_5016" H 4250 7550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5016_C238129.pdf" H 4250 7550 50  0001 C CNN
+F 4 "C238129" H 4050 7550 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 4050 7550 50  0001 C CNN "Distributor"
+F 6 "5016" H 4050 7550 50  0001 C CNN "ManPartNr"
+F 7 "Keystone" H 4050 7550 50  0001 C CNN "Manufacturer"
+F 8 "SMD Testöse" H 4050 7550 50  0001 C CNN "Notes"
+F 9 "0.084" H 4050 7550 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 4050 7550 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Test-Points-Test-Rings_Keystone-5016_C238129.html" H 4050 7550 50  0001 C CNN "Weblink"
+	1    4050 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R112
+U 1 1 5DE86192
+P 5800 5150
+F 0 "R112" V 5800 5150 50  0000 C CNN
+F 1 "100R" V 5916 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5800 5150 50  0001 C CNN
+F 4 "C25201" H 5800 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5800 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 5800 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 5800 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 5800 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 5800 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5800 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5800 5150 50  0001 C CNN "Weblink"
+	1    5800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R103
+U 1 1 5DE8CC3E
+P 3250 5150
+F 0 "R103" V 3250 5150 50  0000 C CNN
+F 1 "100R" V 3366 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3250 5150 50  0001 C CNN
+F 4 "C25201" H 3250 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3250 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3250 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3250 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3250 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3250 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3250 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3250 5150 50  0001 C CNN "Weblink"
+	1    3250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R102
+U 1 1 5DE8CAD8
+P 3150 5150
+F 0 "R102" V 3150 5150 50  0000 C CNN
+F 1 "100R" V 3266 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 3150 5150 50  0001 C CNN
+F 4 "C25201" H 3150 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3150 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 3150 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 3150 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 3150 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 3150 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 3150 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 3150 5150 50  0001 C CNN "Weblink"
+	1    3150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R116
+U 1 1 5DE892AF
+P 6200 5150
+F 0 "R116" V 6200 5150 50  0000 C CNN
+F 1 "100R" V 6316 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6200 5150 50  0001 C CNN
+F 4 "C25201" H 6200 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6200 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 6200 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 6200 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 6200 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 6200 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 6200 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6200 5150 50  0001 C CNN "Weblink"
+	1    6200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R115
+U 1 1 5DE8913B
+P 6100 5150
+F 0 "R115" V 6100 5150 50  0000 C CNN
+F 1 "100R" V 6216 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6100 5150 50  0001 C CNN
+F 4 "C25201" H 6100 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6100 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 6100 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 6100 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 6100 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 6100 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 6100 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6100 5150 50  0001 C CNN "Weblink"
+	1    6100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R114
+U 1 1 5DE88D53
+P 6000 5150
+F 0 "R114" V 6000 5150 50  0000 C CNN
+F 1 "100R" V 6116 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 6000 5150 50  0001 C CNN
+F 4 "C25201" H 6000 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 6000 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 6000 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 6000 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 6000 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 6000 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 6000 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 6000 5150 50  0001 C CNN "Weblink"
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_passives:R_sig R113
+U 1 1 5DE86646
+P 5900 5150
+F 0 "R113" V 5900 5150 50  0000 C CNN
+F 1 "100R" V 6016 5150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAJ0101T5E_C25201.pdf" H 5900 5150 50  0001 C CNN
+F 4 "C25201" H 5900 5150 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 5900 5150 50  0001 C CNN "Distributor"
+F 6 "0603WAJ0101T5E" H 5900 5150 50  0001 C CNN "ManPartNr"
+F 7 "UNI-ROYAL" H 5900 5150 50  0001 C CNN "Manufacturer"
+F 8 "100R, 5%, 100mW" H 5900 5150 50  0001 C CNN "Notes"
+F 9 "0.000563" H 5900 5150 50  0001 C CNN "PriceEUR"
+F 10 "1000" H 5900 5150 50  0001 C CNN "PriceForQty"
+F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0101T5E_C25201.html" H 5900 5150 50  0001 C CNN "Weblink"
+	1    5900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L htl_connectors:RS232_DB9_Male J103
+U 1 1 5DE56645
+P 8250 2450
+F 0 "J103" H 8168 3049 50  0000 C CNN
+F 1 "DB9_Male" H 8168 3140 50  0000 C CNN
+F 2 "htl_connectors:DSUB-9_Male_EdgeMount_P2.77mm" H 8250 2450 50  0001 C CNN
+F 3 "" H 8250 2450 50  0001 C CNN
+F 4 "LCSC" H 8250 2450 50  0001 C CNN "Distributor"
+F 5 " CONNFLY Elec" H 8250 2450 50  0001 C CNN "Manufacturer"
+F 6 "RS232 männlich" H 8250 2450 50  0001 C CNN "Notes"
+F 7 "0.059745" H 8250 2450 50  0001 C CNN "PriceEUR"
+F 8 "150" H 8250 2450 50  0001 C CNN "PriceForQty"
+F 9 "https://lcsc.com/product-detail/D-Sub-Connectors_D-SUB-9pin-Male-head-blue-Welded-wire-type-Tin-plating-Without-screws_C75746.html" H 8250 2450 50  0001 C CNN "Weblink"
+F 10 "C75746" H 8250 2450 50  0001 C CNN "DistOrderNr"
+F 11 "DS1033-09MUNSiSS" H 8250 2450 50  0001 C CNN "ManPartNr"
+	1    8250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3550 4050 2750
+Connection ~ 4050 2750
+Wire Wire Line
+	4050 2750 4400 2750
+Wire Wire Line
+	9850 5350 9500 5350
+Connection ~ 9850 5350
+Connection ~ 9500 5350
+Wire Wire Line
+	9500 5350 9500 5450
 $EndSCHEMATC
