@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 27
 Title "RS-232 Sniffer"
-Date "2020-10-09"
-Rev "v20.0.0-dev"
+Date "2020-11-13"
+Rev "v20.0.0"
 Comp "HTL-Steyr"
 Comment1 "Prof. Karl Zeilhofer"
 Comment2 ""
@@ -1247,7 +1247,7 @@ F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-102-5_C103
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Dual_AACC D?
+L htl_semiconductors:LED_Dual_green-red D?
 U 1 1 5FB4C524
 P 10200 4200
 AR Path="/5F87EA32/5F813BE3/5FB4C524" Ref="D?"  Part="1" 
@@ -1302,7 +1302,7 @@ F 11 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_RALEC-RTT03472
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Dual_AACC D?
+L htl_semiconductors:LED_Dual_green-red D?
 U 1 1 5FADBE3A
 P 8700 4200
 AR Path="/5F87EA32/5F813BE3/5FADBE3A" Ref="D?"  Part="1" 

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 20 27
 Title "RS-232 Sniffer"
-Date "2020-10-09"
-Rev "v20.0.0-dev"
+Date "2020-11-13"
+Rev "v20.0.0"
 Comp "HTL-Steyr"
 Comment1 "Prof. Karl Zeilhofer"
 Comment2 ""
@@ -1054,4 +1054,6 @@ Connection ~ 6100 3650
 Wire Wire Line
 	6200 4150 6200 3650
 Connection ~ 6200 3650
+Wire Notes Line
+	2350 4400 4800 4400
 $EndSCHEMATC

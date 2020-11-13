@@ -5,11 +5,12 @@ KiCad Projekt der HTL-Steyr.
 
 # Features
 * MAX3232 für Pegelwandlung von 3.3 V auf RS232 (+-3...15 V)
+* UART-Eingänge sind 5V-tolerant
 * D-Sub9 Buchse Richtung PC (DTE)
 * D-Sub9 Stecker Richtung Gerät (Modem, DCE)
 * 2x USB-C Buchse (USB 2.0)
 * 2x CH340 USB-UART-Umsetzer
-* AM1117-3.3 (Linearregler für 3.3 V)
+* AM1117-3.3 (Linearregler für 3.3 V aus der 5V USB-Spannung)
 * Signal-LEDs (grün = logisch High, rot = logisch Low)
 * UART-Stiftleisten für Mikrocontroller
 

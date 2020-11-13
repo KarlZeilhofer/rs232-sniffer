@@ -3,4 +3,5 @@
   (lib (name htl_connectors)(type Legacy)(uri ${HTL_LIB}/symbols/htl_connectors.lib)(options "")(descr ""))
   (lib (name htl_ics)(type Legacy)(uri ${HTL_LIB}/symbols/htl_ics.lib)(options "")(descr ""))
   (lib (name htl_passives)(type Legacy)(uri ${HTL_LIB}/symbols/htl_passives.lib)(options "")(descr ""))
+  (lib (name htl_semiconductors)(type Legacy)(uri ${HTL_LIB}/symbols/htl_semiconductors.lib)(options "")(descr ""))
 )
