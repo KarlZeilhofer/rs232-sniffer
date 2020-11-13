@@ -1,7 +1,9 @@
 RS232 Sniffer
 =============
-
 KiCad Projekt der HTL-Steyr. 
+
+![KiCad 3D Rendering](kicad/render/2020-11-13_005.png "KiCad 3D Rendering")
+
 
 # Features
 * MAX3232 für Pegelwandlung von 3.3 V auf RS232 (+-3...15 V)
