@@ -29,7 +29,7 @@ Solche sind zwei Stück verbaut und können auch dirket als solche verwendet wer
 
 # Hinweise
 ## Fertigung
-* SMD-Schablone: 125um Dicke
+* SMD-Schablone: 120um Dicke, 25mm umlaufender Rand für Pastendrucker
 * Leiterplatte: 2 Layer, je 35um Cu, 103x90mm, d=1.6mm, beidseitig Bestückungsdruck
 * Lötstopfreistellung: 51um
 * min. Lötstopstegbreite: 100um
