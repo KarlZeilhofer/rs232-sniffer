@@ -13,6 +13,7 @@ KiCad Projekt der HTL-Steyr.
 * AM1117-3.3 (Linearregler für 3.3 V aus der 5V USB-Spannung)
 * Signal-LEDs (grün = logisch High, rot = logisch Low)
 * UART-Stiftleisten für Mikrocontroller
+* Programmierbuchse für ESP32/ESP8266
 
 # Anwendungsfälle
 ## RS232-Sniffer
@@ -24,5 +25,17 @@ Die Verbindung der beiden D-Sub Steckverbinder kann aufgetrennt werden, und die 
 Somit können Protokolle angepasst werden bzw. Daten manipuliert werden. 
 
 ## USB-UART Adapter
-Solche sind gleich 2 Stück verbaut und können auch dirket als solche verwendet werden. 
+Solche sind zwei Stück verbaut und können auch dirket als solche verwendet werden. 
+
+# Hinweise
+## Fertigung
+* SMD-Schablone: 125um Dicke
+* Leiterplatte: 2 Layer, je 35um Cu, 103x90mm, d=1.6mm, beidseitig Bestückungsdruck
+* Lötstopfreistellung: 51um
+* min. Lötstopstegbreite: 100um
+* Pastenreduktion: umlaufend 40um
+* Durchkontaktierungen: blank (nicht mit Lötstopplack bedeckt)
+
+## Besonderes
+* Pads der USB-Buchsen wurden minimal verschmälert, um einen Lötstopplack zwischen die Pads zu bekommen. 
 
