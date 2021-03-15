@@ -281,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2400 3700 2700
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L rs232-sniffer-rescue:USB_C_Receptacle_USB2.0-Connector J?
 U 1 1 5F6E6B4D
 P 1650 3200
 AR Path="/5F64F622/5F6E6B4D" Ref="J?"  Part="1" 
@@ -290,6 +290,7 @@ AR Path="/5F7F8851/5F7FB5B8/5F6E6B4D" Ref="J2101"  Part="1"
 AR Path="/5F8070C3/5F7FB5B8/5F6E6B4D" Ref="J?"  Part="1" 
 AR Path="/5F8AD0E2/5F7FB5B8/5F6E6B4D" Ref="J2501"  Part="1" 
 AR Path="/5FA85ABF/5F7FB5B8/5F6E6B4D" Ref="J2502"  Part="1" 
+AR Path="/5F6E6B4D" Ref="J2502"  Part="1" 
 F 0 "J2502" H 1757 4067 50  0000 C CNN
 F 1 "USB-C/16p" H 1757 3976 50  0000 C CNN
 F 2 "htl_connectors:USB_C_Receptacle_LCSC_C167321" H 1800 3200 50  0001 C CNN
