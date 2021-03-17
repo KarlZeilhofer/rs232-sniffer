@@ -1,192 +1,109 @@
-10-09 16:41:59 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
-10-09 16:41:59 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.6.9 (default, Jul 17 2020, 12:50:27) \n[GCC 8.4.0]'
-10-09 16:41:59 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.6-c6e7f7d~87~ubuntu18.04.1
-10-09 16:41:59 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
-10-09 16:41:59 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7f7605fa5168>, <wx._core.Frame object at 0x7f761ca7d288>, <wx._core.Frame object at 0x7f761c7cab88>, <wx._core.Frame object at 0x7f7605fa3438>, <wx._core.Frame object at 0x7f7605fa3828>, <wx._core.Frame object at 0x7f7605fa3708>, <wx._core.Frame object at 0x7f7605fa3b88>]
-10-09 16:41:59 replicate_layout.action_replicate_layout 343:Preparing replicator with TP1601 as a reference
-10-09 16:41:59 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-10-09 16:41:59 replicate_layout.replicatelayout 217:Project hierarchy looks like:
-{'5F80F0BB': ['LEDs A', '/home/zeik/projekte/rs232-sniffer/led8x.sch'], '5F813BE3': ['sheet5F813BE0', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813C65': ['sheet5F813C62', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813CCB': ['sheet5F813CC8', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813D49': ['sheet5F813D46', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813D9D': ['sheet5F813D9A', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813DD9': ['sheet5F813DD6', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813E3D': ['sheet5F813E3A', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F813E87': ['sheet5F813E84', '/home/zeik/projekte/rs232-sniffer/led.sch'], '5F87EA32': ['LEDs B', '/home/zeik/projekte/rs232-sniffer/led8x.sch'], '5F8AD0E2': ['UART Hub R', '/home/zeik/projekte/rs232-sniffer/uart-hub.sch'], '5F7FB5B8': ['USB - UART', '/home/zeik/projekte/rs232-sniffer/usb.sch'], '5F7FE442': ['UART - RS232 1', '/home/zeik/projekte/rs232-sniffer/uart-rs232.sch'], '5F7FE44C': ['UART - RS232 2', '/home/zeik/projekte/rs232-sniffer/uart-rs232.sch'], '5FA85ABF': ['UART Hub L', '/home/zeik/projekte/rs232-sniffer/uart-hub.sch']}
-10-09 16:41:59 replicate_layout.replicatelayout 225:getting a list of all footprints on board
-10-09 16:41:59 replicate_layout.action_replicate_layout 370:source anchor footprint is 'TP1601'
-Located on:['LEDs B', 'sheet5F813D9A']
+03-17 08:30:41 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
+03-17 08:30:41 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+03-17 08:30:41 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.9-73d0e3b20d~88~ubuntu20.04.1
+03-17 08:30:41 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
+03-17 08:30:41 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7fae94f3c790>, <wx._core.Frame object at 0x7fae94f3cdc0>, <wx._core.Frame object at 0x7fae94f3cf70>, <wx._core.Frame object at 0x7fae95960040>, <wx._core.Frame object at 0x7fae959600d0>, <wx._core.Frame object at 0x7fae95960160>, <wx._core.Frame object at 0x7fae959601f0>]
+03-17 08:30:41 replicate_layout.action_replicate_layout 343:Preparing replicator with TP1401 as a reference
+03-17 08:30:41 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+03-17 08:30:41 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'5F80F0BB': ['LEDs A', '/home/zeik/git/rs232-sniffer/kicad/led8x.sch'], '5F813BE3': ['sheet5F813BE0', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813C65': ['sheet5F813C62', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813CCB': ['sheet5F813CC8', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813D49': ['sheet5F813D46', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813D9D': ['sheet5F813D9A', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813DD9': ['sheet5F813DD6', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813E3D': ['sheet5F813E3A', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F813E87': ['sheet5F813E84', '/home/zeik/git/rs232-sniffer/kicad/led.sch'], '5F87EA32': ['LEDs B', '/home/zeik/git/rs232-sniffer/kicad/led8x.sch'], '5F8AD0E2': ['UART Hub R', '/home/zeik/git/rs232-sniffer/kicad/uart-hub.sch'], '5F7FB5B8': ['USB - UART', '/home/zeik/git/rs232-sniffer/kicad/usb.sch'], '5F7FE442': ['UART - RS232 1', '/home/zeik/git/rs232-sniffer/kicad/uart-rs232.sch'], '5F7FE44C': ['UART - RS232 2', '/home/zeik/git/rs232-sniffer/kicad/uart-rs232.sch'], '5FA85ABF': ['UART Hub L', '/home/zeik/git/rs232-sniffer/kicad/uart-hub.sch']}
+03-17 08:30:41 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+03-17 08:30:41 replicate_layout.action_replicate_layout 369:source anchor footprint is 'TP1401'
+Located on:['LEDs B', 'sheet5F813CC8']
 With filenames:['led8x.sch', 'led.sch']
-With sheet_id:['LEDs B', 'sheet5F813D9A']
-10-09 16:41:59 replicate_layout.action_replicate_layout 374:Corresponding footprints are 
-[('TP1901', ['LEDs B', 'sheet5F813E84']), ('TP1801', ['LEDs B', 'sheet5F813E3A']), ('TP1701', ['LEDs B', 'sheet5F813DD6']), ('TP1601', ['LEDs B', 'sheet5F813D9A']), ('TP1501', ['LEDs B', 'sheet5F813D46']), ('TP1401', ['LEDs B', 'sheet5F813CC8']), ('TP1301', ['LEDs B', 'sheet5F813C62']), ('TP1201', ['LEDs B', 'sheet5F813BE0']), ('TP1001', ['LEDs A', 'sheet5F813E84']), ('TP901', ['LEDs A', 'sheet5F813E3A']), ('TP801', ['LEDs A', 'sheet5F813DD6']), ('TP701', ['LEDs A', 'sheet5F813D9A']), ('TP601', ['LEDs A', 'sheet5F813D46']), ('TP501', ['LEDs A', 'sheet5F813CC8']), ('TP401', ['LEDs A', 'sheet5F813C62']), ('TP301', ['LEDs A', 'sheet5F813BE0'])]
-10-09 16:41:59 replicate_layout.action_replicate_layout 387:Showing dialog
-10-09 16:41:59 replicate_layout.action_replicate_layout 391:Pcbnew position: wx.Point(-1, 0)
-10-09 16:41:59 replicate_layout.action_replicate_layout 397:Display 0: wx.Rect(0, 0, 1920, 1200)
-10-09 16:41:59 replicate_layout.action_replicate_layout 401:Toolbar position: wx.Point(1700, 127)
-10-09 16:41:59 replicate_layout.action_replicate_layout 408:Dialog position: wx.Point(1387, 127)
-10-09 16:42:00 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'LEDs B', file:'led8x.sch'
-10-09 16:42:00 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B']
-10-09 16:42:00 replicate_layout.replicatelayout 260:Footprints on the sheets:
-['TP1901', 'TP1801', 'TP1701', 'TP1601', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
-10-09 16:42:00 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-['/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
-10-09 16:42:00 replicate_layout.replicatelayout 279:All sheets to replicate:
+With sheet_id:['LEDs B', 'sheet5F813CC8']
+03-17 08:30:41 replicate_layout.action_replicate_layout 374:Corresponding footprints are 
+[('TP1601', ['LEDs B', 'sheet5F813D9A']), ('TP1901', ['LEDs B', 'sheet5F813E84']), ('TP1801', ['LEDs B', 'sheet5F813E3A']), ('TP1701', ['LEDs B', 'sheet5F813DD6']), ('TP1501', ['LEDs B', 'sheet5F813D46']), ('TP1401', ['LEDs B', 'sheet5F813CC8']), ('TP1301', ['LEDs B', 'sheet5F813C62']), ('TP1201', ['LEDs B', 'sheet5F813BE0']), ('TP1001', ['LEDs A', 'sheet5F813E84']), ('TP901', ['LEDs A', 'sheet5F813E3A']), ('TP801', ['LEDs A', 'sheet5F813DD6']), ('TP701', ['LEDs A', 'sheet5F813D9A']), ('TP601', ['LEDs A', 'sheet5F813D46']), ('TP501', ['LEDs A', 'sheet5F813CC8']), ('TP401', ['LEDs A', 'sheet5F813C62']), ('TP301', ['LEDs A', 'sheet5F813BE0'])]
+03-17 08:30:41 replicate_layout.action_replicate_layout 387:Showing dialog
+03-17 08:30:41 replicate_layout.action_replicate_layout 391:Pcbnew position: wx.Point(1, 418)
+03-17 08:30:41 replicate_layout.action_replicate_layout 397:Display 0: wx.Rect(0, 0, 1920, 1200)
+03-17 08:30:41 replicate_layout.action_replicate_layout 397:Display 1: wx.Rect(0, 432, 1024, 768)
+03-17 08:30:41 replicate_layout.action_replicate_layout 401:Toolbar position: wx.Point(891, 544)
+03-17 08:30:41 replicate_layout.action_replicate_layout 408:Dialog position: wx.Point(578, 544)
+03-17 08:30:41 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'LEDs B', file:'led8x.sch'
+03-17 08:30:41 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B']
+03-17 08:30:41 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['TP1601', 'TP1901', 'TP1801', 'TP1701', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
+03-17 08:30:41 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
+03-17 08:30:41 replicate_layout.replicatelayout 279:All sheets to replicate:
 [['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs B'], ['LEDs A'], ['LEDs A'], ['LEDs A'], ['LEDs A'], ['LEDs A'], ['LEDs A'], ['LEDs A'], ['LEDs A']]
-10-09 16:42:00 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+03-17 08:30:41 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [['LEDs A'], ['LEDs B']]
-10-09 16:42:00 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+03-17 08:30:41 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
 [['LEDs A']]
-10-09 16:42:02 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F813D9A', file:'led.sch'
-10-09 16:42:02 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B', 'sheet5F813D9A']
-10-09 16:42:02 replicate_layout.replicatelayout 260:Footprints on the sheets:
-['TP1901', 'TP1801', 'TP1701', 'TP1601', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
-10-09 16:42:02 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-['/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
-10-09 16:42:02 replicate_layout.replicatelayout 279:All sheets to replicate:
-[['LEDs B', 'sheet5F813E84'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813E84'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813BE0']]
-10-09 16:42:02 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+03-17 08:30:54 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F813CC8', file:'led.sch'
+03-17 08:30:54 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B', 'sheet5F813CC8']
+03-17 08:30:54 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['TP1601', 'TP1901', 'TP1801', 'TP1701', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
+03-17 08:30:54 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
+03-17 08:30:54 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813E84'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813E84'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813BE0']]
+03-17 08:30:54 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
-10-09 16:42:02 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
-10-09 16:42:06 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F813D9A', file:'led.sch'
-10-09 16:42:06 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B', 'sheet5F813D9A']
-10-09 16:42:06 replicate_layout.replicatelayout 260:Footprints on the sheets:
-['TP1901', 'TP1801', 'TP1701', 'TP1601', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
-10-09 16:42:06 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-['/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
-10-09 16:42:06 replicate_layout.replicatelayout 279:All sheets to replicate:
-[['LEDs B', 'sheet5F813E84'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813E84'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813BE0']]
-10-09 16:42:06 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+03-17 08:30:54 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
+03-17 08:31:07 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet5F813CC8', file:'led.sch'
+03-17 08:31:07 replicate_layout.replicatelayout 256:Source sheet path up to the level:['LEDs B', 'sheet5F813CC8']
+03-17 08:31:07 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['TP1601', 'TP1901', 'TP1801', 'TP1701', 'TP1501', 'TP1401', 'TP1301', 'TP1201', 'TP1001', 'TP901', 'TP801', 'TP701', 'TP601', 'TP501', 'TP401', 'TP301']
+03-17 08:31:07 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/5F87EA32/5F813D9D/5F74E0AC', '/5F87EA32/5F813E87/5F74E0AC', '/5F87EA32/5F813E3D/5F74E0AC', '/5F87EA32/5F813DD9/5F74E0AC', '/5F87EA32/5F813D49/5F74E0AC', '/5F87EA32/5F813CCB/5F74E0AC', '/5F87EA32/5F813C65/5F74E0AC', '/5F87EA32/5F813BE3/5F74E0AC', '/5F80F0BB/5F813E87/5F74E0AC', '/5F80F0BB/5F813E3D/5F74E0AC', '/5F80F0BB/5F813DD9/5F74E0AC', '/5F80F0BB/5F813D9D/5F74E0AC', '/5F80F0BB/5F813D49/5F74E0AC', '/5F80F0BB/5F813CCB/5F74E0AC', '/5F80F0BB/5F813C65/5F74E0AC', '/5F80F0BB/5F813BE3/5F74E0AC']
+03-17 08:31:07 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813E84'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813E84'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813BE0']]
+03-17 08:31:07 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
-10-09 16:42:06 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
-10-09 16:42:06 replicate_layout.action_replicate_layout 179:Replicating layout
-10-09 16:42:06 replicate_layout.replicatelayout 990:Starting replication of sheets: [['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813CC8'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
-on level: ['LEDs B', 'sheet5F813D9A']
-with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
-10-09 16:42:06 root 261:updating GUI message: 'Preparing for replication'
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 556:Getting the list of source footprints
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
-10-09 16:42:07 replicate_layout.replicatelayout 564:Getting nets local to source footprints
-10-09 16:42:07 replicate_layout.replicatelayout 568:Getting source bounding box
-10-09 16:42:07 root 266:updating GUI with: 37
-10-09 16:42:07 replicate_layout.replicatelayout 572:Getting source tracks
-10-09 16:42:07 replicate_layout.replicatelayout 576:Getting source zones
-10-09 16:42:07 root 266:updating GUI with: 62
-10-09 16:42:07 replicate_layout.replicatelayout 580:Getting source text items
-10-09 16:42:07 replicate_layout.replicatelayout 584:Getting source text items
-10-09 16:42:07 root 261:updating GUI message: 'Replicating footprints'
-10-09 16:42:07 replicate_layout.replicatelayout 590:Replicating footprints
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813C62']
-10-09 16:42:07 root 266:updating GUI with: 8
-10-09 16:42:07 root 266:updating GUI with: 13
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813CC8']
-10-09 16:42:07 root 266:updating GUI with: 20
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813D46']
-10-09 16:42:07 root 266:updating GUI with: 26
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813D9A']
-10-09 16:42:07 root 266:updating GUI with: 33
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813DD6']
-10-09 16:42:07 root 266:updating GUI with: 40
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813E3A']
-10-09 16:42:07 root 266:updating GUI with: 46
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs A', 'sheet5F813E84']
-10-09 16:42:07 root 266:updating GUI with: 53
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813BE0']
-10-09 16:42:07 root 266:updating GUI with: 60
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813C62']
-10-09 16:42:07 root 266:updating GUI with: 66
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813CC8']
-10-09 16:42:07 root 266:updating GUI with: 73
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813D46']
-10-09 16:42:07 root 266:updating GUI with: 80
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813DD6']
-10-09 16:42:07 root 266:updating GUI with: 86
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813E3A']
-10-09 16:42:07 root 266:updating GUI with: 93
-10-09 16:42:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813E84']
-10-09 16:42:07 root 261:updating GUI message: 'Replicating tracks'
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 716:Replicating tracks
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813CC8']
-10-09 16:42:07 root 266:updating GUI with: 13
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813D9A']
-10-09 16:42:07 root 266:updating GUI with: 27
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813E3A']
-10-09 16:42:07 root 266:updating GUI with: 40
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs A', 'sheet5F813E84']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813BE0']
-10-09 16:42:07 root 266:updating GUI with: 55
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813CC8']
-10-09 16:42:07 root 266:updating GUI with: 67
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813DD6']
-10-09 16:42:07 root 266:updating GUI with: 80
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813E84']
-10-09 16:42:07 root 266:updating GUI with: 96
-10-09 16:42:07 root 261:updating GUI message: 'Replicating zones'
-10-09 16:42:07 replicate_layout.replicatelayout 767:Replicating zones
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813C62']
-10-09 16:42:07 root 266:updating GUI with: 13
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813CC8']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813D9A']
-10-09 16:42:07 root 266:updating GUI with: 33
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs A', 'sheet5F813E84']
-10-09 16:42:07 root 266:updating GUI with: 53
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813CC8']
-10-09 16:42:07 root 266:updating GUI with: 73
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813E3A']
-10-09 16:42:07 root 266:updating GUI with: 93
-10-09 16:42:07 replicate_layout.replicatelayout 774:Replicating zones on sheet ['LEDs B', 'sheet5F813E84']
-10-09 16:42:07 root 261:updating GUI message: 'Replicating text'
-10-09 16:42:07 replicate_layout.replicatelayout 833:Replicating text
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813CC8']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813D9A']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs A', 'sheet5F813E84']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813CC8']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 840:Replicating text on sheet ['LEDs B', 'sheet5F813E84']
-10-09 16:42:07 root 261:updating GUI message: 'Replicating drawings'
-10-09 16:42:07 replicate_layout.replicatelayout 864:Replicating drawings
-10-09 16:42:07 root 266:updating GUI with: 0
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813CC8']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813D9A']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs A', 'sheet5F813E84']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813BE0']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813C62']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813CC8']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813D46']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813DD6']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813E3A']
-10-09 16:42:07 replicate_layout.replicatelayout 870:Replicating drawings on sheet ['LEDs B', 'sheet5F813E84']
-10-09 16:42:07 replicate_layout.action_replicate_layout 201:Replication complete
+03-17 08:31:07 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['LEDs A', 'sheet5F813BE0'], ['LEDs A', 'sheet5F813C62'], ['LEDs A', 'sheet5F813CC8'], ['LEDs A', 'sheet5F813D46'], ['LEDs A', 'sheet5F813D9A'], ['LEDs A', 'sheet5F813DD6'], ['LEDs A', 'sheet5F813E3A'], ['LEDs A', 'sheet5F813E84'], ['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
+03-17 08:31:07 replicate_layout.action_replicate_layout 179:Replicating layout
+03-17 08:31:07 replicate_layout.replicatelayout 987:Starting replication of sheets: [['LEDs B', 'sheet5F813BE0'], ['LEDs B', 'sheet5F813C62'], ['LEDs B', 'sheet5F813D46'], ['LEDs B', 'sheet5F813D9A'], ['LEDs B', 'sheet5F813DD6'], ['LEDs B', 'sheet5F813E3A'], ['LEDs B', 'sheet5F813E84']]
+on level: ['LEDs B', 'sheet5F813CC8']
+with tracks=True, zone=False, text=False, containing=True, remove=False, locked=False
+03-17 08:31:07 root 261:updating GUI message: 'Preparing for replication'
+03-17 08:31:07 root 266:updating GUI with: 0
+03-17 08:31:07 replicate_layout.replicatelayout 556:Getting the list of source footprints
+03-17 08:31:07 root 266:updating GUI with: 0
+03-17 08:31:07 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+03-17 08:31:07 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+03-17 08:31:07 replicate_layout.replicatelayout 568:Getting source bounding box
+03-17 08:31:07 root 266:updating GUI with: 37
+03-17 08:31:07 replicate_layout.replicatelayout 572:Getting source tracks
+03-17 08:31:07 replicate_layout.replicatelayout 576:Getting source zones
+03-17 08:31:07 root 266:updating GUI with: 62
+03-17 08:31:07 replicate_layout.replicatelayout 580:Getting source text items
+03-17 08:31:07 replicate_layout.replicatelayout 584:Getting source text items
+03-17 08:31:07 root 266:updating GUI with: 87
+03-17 08:31:07 root 266:updating GUI with: 100
+03-17 08:31:07 root 261:updating GUI message: 'Replicating footprints'
+03-17 08:31:08 replicate_layout.replicatelayout 590:Replicating footprints
+03-17 08:31:08 root 266:updating GUI with: 0
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813BE0']
+03-17 08:31:08 root 266:updating GUI with: 14
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813C62']
+03-17 08:31:08 root 266:updating GUI with: 19
+03-17 08:31:08 root 266:updating GUI with: 28
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813D46']
+03-17 08:31:08 root 266:updating GUI with: 38
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813D9A']
+03-17 08:31:08 root 266:updating GUI with: 52
+03-17 08:31:08 root 266:updating GUI with: 57
+03-17 08:31:08 root 266:updating GUI with: 57
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813DD6']
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813E3A']
+03-17 08:31:08 root 266:updating GUI with: 80
+03-17 08:31:08 root 266:updating GUI with: 85
+03-17 08:31:08 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['LEDs B', 'sheet5F813E84']
+03-17 08:31:08 root 261:updating GUI message: 'Replicating tracks'
+03-17 08:31:08 replicate_layout.replicatelayout 716:Replicating tracks
+03-17 08:31:08 root 266:updating GUI with: 0
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813BE0']
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813C62']
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813D46']
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813D9A']
+03-17 08:31:08 root 266:updating GUI with: 44
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813DD6']
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813E3A']
+03-17 08:31:08 replicate_layout.replicatelayout 722:Replicating tracks on sheet ['LEDs B', 'sheet5F813E84']
+03-17 08:31:08 root 266:updating GUI with: 87
+03-17 08:31:08 replicate_layout.action_replicate_layout 201:Replication complete
