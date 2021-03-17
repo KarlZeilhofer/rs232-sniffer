@@ -5,6 +5,7 @@ Changelog zu RS232-Sniffer der HTL-Steyr
 
 # V20.0.1
 * Beschriftung Nullmodem und 1:1 vertauscht. Links ist die Nullmodem-Verdrahtung, rechts 1:1 (gerade). 
+* Nun keine SMD-Paste bei den D-Sub-Steckverbindern 
 
 
 # V20.0.0
