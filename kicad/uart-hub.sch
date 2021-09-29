@@ -104,6 +104,14 @@ F 0 "J2402" V 3622 5930 50  0000 L CNN
 F 1 "Buchsenleiste 1x6, horizontal" V 3713 5930 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 3750 5650 50  0001 C CNN
 F 3 "" H 3750 5650 50  0001 C CNN
+F 4 "C225514" H 3750 5650 50  0001 C CNN "DistOrderNr"
+F 5 "LCSC" H 3750 5650 50  0001 C CNN "Distributor"
+F 6 "A2541HWR-6P" H 3750 5650 50  0001 C CNN "ManPartNr"
+F 7 "CJT(Changjiang Connectors)" H 3750 5650 50  0001 C CNN "Manufacturer"
+F 8 "Buchsenleiste, 1x6, 2.54mm, gewinkelt" H 3750 5650 50  0001 C CNN "Notes"
+F 9 "0.13" H 3750 5650 50  0001 C CNN "PriceEUR"
+F 10 "30" H 3750 5650 50  0001 C CNN "PriceForQty"
+F 11 "https://www.lcsc.com/product-detail/Female-Headers_CJT-Changjiang-Connectors-A2541HWR-6P_C225514.html" H 3750 5650 50  0001 C CNN "Weblink"
 	1    3750 5650
 	0    1    1    0   
 $EndComp
